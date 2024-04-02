@@ -1,0 +1,1652 @@
+Id,ComponentName,Domain,Operating System,Language,Functionality,preCondition,postCondition
+1,AddBookUI,Library Management,Linux,Angular,"add book ui using author name, book name and year",x,x
+2,AddBookUI,Supply Chain,Linux,Angular,"add book ui using author name, book name and year",x,x
+3,AuthorAndGenre,Library Management,Linux,Angular,author name dropdown and genre dropdown,x,x
+4,AuthorAndGenre,Supply Chain,Linux,Angular,author name dropdown and genre dropdown,x,x
+5,BerthAvailabilty,Railway Booking,Linux,Angular,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+6,BerthAvailabilty,Bus Booking,Linux,Angular,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+7,BerthAvailabilty,Bus Booking,Linux,Angular,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+8,BerthAvailabilty,Bus Booking,Linux,Angular,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+9,BookAddedSuccessfullyDialog,Library Management,Linux,Angular,book added sucessfully dialog,bookAddedSuccessful,x
+10,BookAddedSuccessfullyDialog,Supply Chain,Linux,Angular,book added sucessfully dialog,bookAddedSuccessful,x
+11,BookingConfirmation,Hotel Booking,Linux,Angular,confirmation page display,x,x
+12,BookList,Library Management,Linux,Angular,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+13,BookList,Supply Chain,Linux,Angular,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+14,CalculateAgeScreen,Educational,Linux,Angular,Calculate age using date picker and date of birth,loggedIn,age
+15,CityNameDropdown,Hotel Booking,Linux,Angular,city name dropdown,isLoggedIn,cityName:String
+16,CityNameWithState,Hotel Booking,Linux,Angular,city name dropdown with state,x,x
+17,ClassTypeAndQuota,Railway Booking,Linux,Angular,class type dropdown and quota type dropdown,x,x
+18,ClassTypeAndQuota,Bus Booking,Linux,Angular,class type dropdown and quota type dropdown,x,x
+19,DateOfJourney,Bus Booking,Linux,Angular,date of journey input,x,x
+20,DateOfJourney,Railway Booking,Linux,Angular,date of journey input,x,x
+21,DisplayAgeOutput,Educational,Linux,Angular,Display the age ,age,x
+22,FlightBookingConfirmed,Flight Booking,Linux,Angular,"Flight booking confirmed page with details like airline name , date of journey, from city , to city ",x,x
+23,FlightClassType,Flight Booking,Linux,Angular,select flight class type from dropdown,x,x
+24,FlightDisplayUI,Flight Booking,Linux,Angular,"display the searched list of flights and select a flight with details like airline code, airline name, departure, arrival , number of stops , duration and price",x,x
+25,FromCityToCity,Bus Booking,Linux,Angular,From city dropdown and to city dropdown select,x,x
+26,FromCityToCity,Railway Booking,Linux,Angular,From city dropdown and to city dropdown select,x,x
+27,FromCityToCityDOJ,Flight Booking,Linux,Angular,From city dropdown and to city dropdown and date of journey select,x,x
+28,FromDateToDate,Hotel Booking,Linux,Angular,from date and to date input,x,x
+29,GetFlights,Flight Booking,Linux,Angular,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+30,GetTrains,Railway Booking,Linux,Angular,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+31,GSTCalculator,x,Linux,Angular,gst calculate on amount or fare,amount,amount
+32,HotelListUI,Hotel Booking,Linux,Angular,list of hotels with hotel select from list,x,x
+33,HotelRentCalculator,Hotel Booking,Linux,Angular,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+34,HotelSearch,Hotel Booking,Linux,Angular,search for hotels using city and state name,x,x
+35,LoginCaptchaScreen,x,Linux,Angular,"Login using username, password and captcha",x,loggedIn
+36,LoginCheck,x,Linux,Angular,check username and password validity,"username,password",isLoggedIn
+37,LoginErrorPage,x,Linux,Angular,login failed error page,x,x
+38,LoginScreen,x,Linux,Angular,Login using username and password,x,loggedIn
+39,LoginScreen1,x,Linux,Angular,"login using username ,password and register option",x,"userRegistered,loggedIn"
+40,Logout,x,Linux,Angular,logout button,paymentStatus,loggedIn
+41,NumberOfItems,Ecommerce,Linux,Angular,number of items dropdown,selectedProduct,numberOfItems
+42,PassengerDetails,Railway Booking,Linux,Angular,"add details of passenger with input of name , age , gender  , phone number ",x,x
+43,PassengerDetails,Bus Booking,Linux,Angular,"add details of passenger with input of name , age , gender  , phone number ",x,x
+44,PaymentFailed,x,Linux,Angular,payment failed page for the given amount,x,x
+45,PaymentPageUI,x,Linux,Angular,"payment page with options like credit card, debit card and cash",x,x
+46,PaymentPageUI1,x,Linux,Angular,"payment page with options like credit card, debit card, netbanking, upi and cash",amount,paymentStatus
+47,ProductCategory,Ecommerce,Linux,Angular,product category dropdown,loggedIn,productCategorySelected
+48,ProductFareCalculator,Ecommerce,Linux,Angular,"product fare calculate using product price, number of items and discount percentage","amount,numberOfItems",amount
+49,ProductList,Ecommerce,Linux,Angular,display list of product search results with select a product,"loggedIn,productSeachedList","amount,selectedProduct"
+50,ProfilePage,Ecommerce,Linux,Angular,"profile page with details like name,username,email,address and phone number",x,x
+51,Register,x,Linux,Angular,"registration page with details like email , password and confirm password",x,userRegistered
+52,Register1,x,Linux,Angular,"registration page with details like name,email,username,password and confirm password",x,userRegistered
+53,Register2,x,Linux,Angular,"registration page with details like name, username,email,address,phone number,password and confirm password",x,x
+54,RoomSelector,Hotel Booking,Linux,Angular,room type and number of guests dropdown ,x,x
+55,SearchBook,Library Management,Linux,Angular,search box for entering book name,x,x
+56,SearchProduct,Ecommerce,Linux,Angular,searching products using product name and product category,"loggedIn,productSearchTerm,productCategorySelected",productSearchedList
+57,SearchProductUI,Ecommerce,Linux,Angular,search box for entering product name to search,loggedIn,productSearchTerm
+58,ThankYouPage,Ecommerce,Linux,Angular,thank you page for the username,x,x
+59,TrainBookingConfirmed,Railway Booking,Linux,Angular,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+60,TrainDisplayUI,Railway Booking,Linux,Angular,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+61,BusBookingConfirmed,Bus Booking,Linux,Angular,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+62,BusDisplayUI,Bus Booking,Linux,Angular,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+63,VerificationEmailPage,Ecommerce,Linux,Angular,verification email sent page,x,x
+64,VideoList,Online Video,Linux,Angular,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+65,YoutubeVideoPlay,Online Video,Linux,Angular,youtube video player with video id ,videoId,x
+66,AddBookUI,Library Management,MacOS,Angular,"add book ui using author name, book name and year",x,x
+67,AddBookUI,Supply Chain,MacOS,Angular,"add book ui using author name, book name and year",addBook,bookAddedSuccessful:Boolean
+68,AuthorAndGenre,Library Management,MacOS,Angular,author name dropdown and genre dropdown,x,x
+69,AuthorAndGenre,Supply Chain,MacOS,Angular,author name dropdown and genre dropdown,x,x
+70,BerthAvailabilty,Railway Booking,MacOS,Angular,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+71,BookAddedSuccessfullyDialog,Library Management,MacOS,Angular,book added sucessfully dialog,bookAddedSuccessful,x
+72,BookAddedSuccessfullyDialog,Supply Chain,MacOS,Angular,book added sucessfully dialog,bookAddedSuccessful,x
+73,BookingConfirmation,Hotel Booking,MacOS,Angular,confirmation page display,x,x
+74,BookList,Library Management,MacOS,Angular,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+75,BookList,Supply Chain,MacOS,Angular,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+76,CalculateAgeScreen,Educational,MacOS,Angular,Calculate age using date picker and date of birth,loggedIn,age
+77,CityNameDropdown,Hotel Booking,MacOS,Angular,city name dropdown,isLoggedIn,cityName:String
+78,CityNameWithState,Hotel Booking,MacOS,Angular,city name dropdown with state,x,x
+79,ClassTypeAndQuota,Railway Booking,MacOS,Angular,class type dropdown and quota type dropdown,x,x
+80,ClassTypeAndQuota,Bus Booking,MacOS,Angular,class type dropdown and quota type dropdown,x,x
+81,DateOfJourney,Bus Booking,MacOS,Angular,date of journey input,x,x
+82,DateOfJourney,Railway Booking,MacOS,Angular,date of journey input,x,x
+83,DisplayAgeOutput,Educational,MacOS,Angular,Display the age ,age,x
+84,FlightBookingConfirmed,Flight Booking,MacOS,Angular,"Flight booking confirmed page with details like airline name , date of journey, from city , to city ",x,x
+85,FlightClassType,Flight Booking,MacOS,Angular,select flight class type from dropdown,x,x
+86,FlightDisplayUI,Flight Booking,MacOS,Angular,"display the searched list of flights and select a flight with details like airline code, airline name, departure, arrival , number of stops , duration and price",x,x
+87,FromCityToCity,Bus Booking,MacOS,Angular,From city dropdown and to city dropdown select,x,x
+88,FromCityToCity,Railway Booking,MacOS,Angular,From city dropdown and to city dropdown select,x,x
+89,FromCityToCityDOJ,Flight Booking,MacOS,Angular,From city dropdown and to city dropdown and date of journey select,x,x
+90,FromDateToDate,Hotel Booking,MacOS,Angular,from date and to date input,x,x
+91,GetFlights,Flight Booking,MacOS,Angular,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+92,GetTrains,Railway Booking,MacOS,Angular,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+93,GSTCalculator,x,MacOS,Angular,gst calculate on amount or fare,amount,amount
+94,HotelListUI,Hotel Booking,MacOS,Angular,list of hotels with hotel select from list,x,x
+95,HotelRentCalculator,Hotel Booking,MacOS,Angular,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+96,HotelSearch,Hotel Booking,MacOS,Angular,search for hotels using city and state name,x,x
+97,LoginCaptchaScreen,x,MacOS,Angular,"Login using username, password and captcha",x,loggedIn
+98,LoginCheck,x,MacOS,Angular,check username and password validity,"username,password",isLoggedIn
+99,LoginErrorPage,x,MacOS,Angular,login failed error page,x,x
+100,LoginScreen,x,MacOS,Angular,Login using username and password,x,loggedIn
+101,LoginScreen1,x,MacOS,Angular,"login using username ,password and register option",x,"userRegistered,loggedIn"
+102,Logout,x,MacOS,Angular,logout button,paymentStatus,loggedIn
+103,NumberOfItems,Ecommerce,MacOS,Angular,number of items dropdown,selectedProduct,numberOfItems
+104,PassengerDetails,Railway Booking,MacOS,Angular,"add details of passenger with input of name , age , gender  , phone number ",x,x
+105,PassengerDetails,Bus Booking,MacOS,Angular,"add details of passenger with input of name , age , gender  , phone number ",x,x
+106,PaymentFailed,x,MacOS,Angular,payment failed page for the given amount,x,x
+107,PaymentPageUI,x,MacOS,Angular,"payment page with options like credit card, debit card and cash",x,x
+108,PaymentPageUI1,x,MacOS,Angular,"payment page with options like credit card, debit card, netbanking, upi and cash",amount,paymentStatus
+109,ProductCategory,Ecommerce,MacOS,Angular,product category dropdown,loggedIn,productCategorySelected
+110,ProductFareCalculator,Ecommerce,MacOS,Angular,"product fare calculate using product price, number of items and discount percentage","amount,numberOfItems",amount
+111,ProductList,Ecommerce,MacOS,Angular,display list of product search results with select a product,"loggedIn,productSeachedList","amount,selectedProduct"
+112,ProfilePage,Ecommerce,MacOS,Angular,"profile page with details like name,username,email,address and phone number",x,x
+113,Register,x,MacOS,Angular,"registration page with details like email , password and confirm password",x,userRegistered
+114,Register1,x,MacOS,Angular,"registration page with details like name,email,username,password and confirm password",x,userRegistered
+115,Register2,x,MacOS,Angular,"registration page with details like name, username,email,address,phone number,password and confirm password",x,x
+116,RoomSelector,Hotel Booking,MacOS,Angular,room type and number of guests dropdown ,x,x
+117,SearchBook,Library Management,MacOS,Angular,search box for entering book name,x,x
+118,SearchProduct,Ecommerce,MacOS,Angular,searching products using product name and product category,"loggedIn,productSearchTerm,productCategorySelected",productSearchedList
+119,SearchProductUI,Ecommerce,MacOS,Angular,search box for entering product name to search,loggedIn,productSearchTerm
+120,ThankYouPage,Ecommerce,MacOS,Angular,thank you page for the username,x,x
+121,TrainBookingConfirmed,Railway Booking,MacOS,Angular,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+122,TrainDisplayUI,Railway Booking,MacOS,Angular,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+123,BusBookingConfirmed,Bus Booking,MacOS,Angular,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+124,BusDisplayUI,Bus Booking,MacOS,Angular,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+125,VerificationEmailPage,Ecommerce,MacOS,Angular,verification email sent page,x,x
+126,VideoList,Online Video,MacOS,Angular,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+127,YoutubeVideoPlay,Online Video,MacOS,Angular,youtube video player with video id ,videoId,x
+128,AddBookUI,Library Management,Windows,Angular,"add book ui using author name, book name and year",x,x
+129,AddBookUI,Supply Chain,Windows,Angular,"add book ui using author name, book name and year",x,x
+130,AuthorAndGenre,Library Management,Windows,Angular,author name dropdown and genre dropdown,x,x
+131,AuthorAndGenre,Supply Chain,Windows,Angular,author name dropdown and genre dropdown,x,x
+132,BerthAvailabilty,Railway Booking,Windows,Angular,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+133,BookAddedSuccessfullyDialog,Library Management,Windows,Angular,book added sucessfully dialog,bookAddedSuccessful,x
+134,BookAddedSuccessfullyDialog,Supply Chain,Windows,Angular,book added sucessfully dialog,bookAddedSuccessful,x
+135,BookingConfirmation,Hotel Booking,Windows,Angular,confirmation page display,x,x
+136,BookList,Library Management,Windows,Angular,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+137,BookList,Supply Chain,Windows,Angular,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+138,CalculateAgeScreen,Educational,Windows,Angular,Calculate age using date picker and date of birth,loggedIn,age
+139,CityNameDropdown,Hotel Booking,Windows,Angular,city name dropdown,isLoggedIn,cityName:String
+140,CityNameWithState,Hotel Booking,Windows,Angular,city name dropdown with state,x,x
+141,ClassTypeAndQuota,Railway Booking,Windows,Angular,class type dropdown and quota type dropdown,x,x
+142,ClassTypeAndQuota,Bus Booking,Windows,Angular,class type dropdown and quota type dropdown,x,x
+143,DateOfJourney,Bus Booking,Windows,Angular,date of journey input,x,x
+144,DateOfJourney,Railway Booking,Windows,Angular,date of journey input,x,x
+145,DisplayAgeOutput,Educational,Windows,Angular,Display the age ,age,x
+146,FlightBookingConfirmed,Flight Booking,Windows,Angular,"Flight booking confirmed page with details like airline name , date of journey, from city , to city ",x,x
+147,FlightClassType,Flight Booking,Windows,Angular,select flight class type from dropdown,x,x
+148,FlightDisplayUI,Flight Booking,Windows,Angular,"display the searched list of flights and select a flight with details like airline code, airline name, departure, arrival , number of stops , duration and price",x,x
+149,FromCityToCity,Bus Booking,Windows,Angular,From city dropdown and to city dropdown select,x,x
+150,FromCityToCity,Railway Booking,Windows,Angular,From city dropdown and to city dropdown select,x,x
+151,FromCityToCityDOJ,Flight Booking,Windows,Angular,From city dropdown and to city dropdown and date of journey select,x,x
+152,FromDateToDate,Hotel Booking,Windows,Angular,from date and to date input,x,x
+153,GetFlights,Flight Booking,Windows,Angular,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+154,GetTrains,Railway Booking,Windows,Angular,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+155,GSTCalculator,x,Windows,Angular,gst calculate on amount or fare,amount,amount
+156,HotelListUI,Hotel Booking,Windows,Angular,list of hotels with hotel select from list,x,x
+157,HotelRentCalculator,Hotel Booking,Windows,Angular,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+158,HotelSearch,Hotel Booking,Windows,Angular,search hotels using city name,cityName,ids:String[]
+159,LoginCaptchaScreen,x,Windows,Angular,"Login using username, password and captcha",x,loggedIn
+160,LoginCheck,x,Windows,Angular,check username and password validity,"username,password",isLoggedIn
+161,LoginErrorPage,x,Windows,Angular,login failed error page,x,x
+162,LoginScreen,x,Windows,Angular,Login using username and password,x,loggedIn
+163,LoginScreen1,x,Windows,Angular,"login using username ,password and register option",x,"userRegistered,loggedIn"
+164,Logout,x,Windows,Angular,logout button,paymentStatus,loggedIn
+165,NumberOfItems,Ecommerce,Windows,Angular,number of items dropdown,selectedProduct,numberOfItems
+166,PassengerDetails,Railway Booking,Windows,Angular,"add details of passenger with input of name , age , gender  , phone number ",x,x
+167,PassengerDetails,Bus Booking,Windows,Angular,"add details of passenger with input of name , age , gender  , phone number ",x,x
+168,PaymentFailed,x,Windows,Angular,payment failed page for the given amount,x,x
+169,PaymentPageUI,x,Windows,Angular,"payment page with options like credit card, debit card and cash",x,x
+170,PaymentPageUI1,x,Windows,Angular,"payment page with options like credit card, debit card, netbanking, upi and cash",amount,paymentStatus
+171,ProductCategory,Ecommerce,Windows,Angular,product category dropdown,loggedIn,productCategorySelected
+172,ProductFareCalculator,Ecommerce,Windows,Angular,"product fare calculate using product price, number of items and discount percentage","amount,numberOfItems",amount
+173,ProductList,Ecommerce,Windows,Angular,display list of product search results with select a product,"loggedIn,productSeachedList","amount,selectedProduct"
+174,ProfilePage,Ecommerce,Windows,Angular,"profile page with details like name,username,email,address and phone number",x,x
+175,Register,x,Windows,Angular,"registration page with details like email , password and confirm password",x,userRegistered
+176,Register1,x,Windows,Angular,"registration page with details like name,email,username,password and confirm password",x,userRegistered
+177,Register2,x,Windows,Angular,"registration page with details like name, username,email,address,phone number,password and confirm password",x,x
+178,RoomSelector,Hotel Booking,Windows,Angular,room type and number of guests dropdown ,x,x
+179,SearchBook,Library Management,Windows,Angular,search box for entering book name,x,x
+180,SearchProduct,Ecommerce,Windows,Angular,searching products using product name and product category,"loggedIn,productSearchTerm,productCategorySelected",productSearchedList
+181,SearchProductUI,Ecommerce,Windows,Angular,search box for entering product name to search,loggedIn,productSearchTerm
+182,ThankYouPage,Ecommerce,Windows,Angular,thank you page for the username,x,x
+183,TrainBookingConfirmed,Railway Booking,Windows,Angular,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+184,TrainDisplayUI,Railway Booking,Windows,Angular,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+185,BusBookingConfirmed,Bus Booking,Windows,Angular,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+186,BusDisplayUI,Bus Booking,Windows,Angular,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+187,VerificationEmailPage,Ecommerce,Windows,Angular,verification email sent page,x,x
+188,VideoList,Online Video,Windows,Angular,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+189,YoutubeVideoPlay,Online Video,Windows,Angular,youtube video player with video id ,videoId,x
+190,AddBookUI,Library Management,Windows,C#,"add book ui using author name, book name and year",x,x
+191,AddBookUI,Supply Chain,Windows,C#,"add book ui using author name, book name and year",x,x
+192,AuthorAndGenre,Library Management,Windows,C#,author name dropdown and genre dropdown,x,x
+193,AuthorAndGenre,Supply Chain,Windows,C#,author name dropdown and genre dropdown,x,x
+194,BerthAvailabilty,Railway Booking,Windows,C#,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+195,BookAddedSuccessfullyDialog,Library Management,Windows,C#,book added sucessfully dialog,bookAddedSuccessful,x
+196,BookAddedSuccessfullyDialog,Supply Chain,Windows,C#,book added sucessfully dialog,bookAddedSuccessful,x
+197,BookingConfirmation,Hotel Booking,Windows,C#,confirmation page display,x,x
+198,BookList,Library Management,Windows,C#,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+199,BookList,Supply Chain,Windows,C#,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+200,CalculateAgeScreen,Educational,Windows,C#,Calculate age using date picker and date of birth,loggedIn,age
+201,CityNameDropdown,Hotel Booking,Windows,C#,city name dropdown,isLoggedIn,cityName:String
+202,CityNameWithState,Hotel Booking,Windows,C#,city name dropdown with state,x,x
+203,ClassTypeAndQuota,Railway Booking,Windows,C#,class type dropdown and quota type dropdown,x,x
+204,ClassTypeAndQuota,Bus Booking,Windows,C#,class type dropdown and quota type dropdown,x,x
+205,DateOfJourney,Bus Booking,Windows,C#,date of journey input,x,x
+206,DateOfJourney,Railway Booking,Windows,C#,date of journey input,x,x
+207,DisplayAgeOutput,Educational,Windows,C#,Display the age ,age,x
+208,FlightBookingConfirmed,Flight Booking,Windows,C#,"Flight booking confirmed page with details like airline name , date of journey, from city , to city ",x,x
+209,FlightClassType,Flight Booking,Windows,C#,select flight class type from dropdown,x,x
+210,FlightDisplayUI,Flight Booking,Windows,C#,"display the searched list of flights and select a flight with details like airline code, airline name, departure, arrival , number of stops , duration and price",x,x
+211,FromCityToCity,Bus Booking,Windows,C#,From city dropdown and to city dropdown select,x,x
+212,FromCityToCity,Railway Booking,Windows,C#,From city dropdown and to city dropdown select,x,x
+213,FromCityToCityDOJ,Flight Booking,Windows,C#,From city dropdown and to city dropdown and date of journey select,x,x
+214,FromDateToDate,Hotel Booking,Windows,C#,from date and to date input,x,x
+215,GetFlights,Flight Booking,Windows,C#,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+216,GetTrains,Railway Booking,Windows,C#,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+217,GSTCalculator,x,Windows,C#,gst calculate on amount or fare,amount,amount
+218,HotelListUI,Hotel Booking,Windows,C#,list of hotels with hotel select from list,x,x
+219,HotelRentCalculator,Hotel Booking,Windows,C#,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+220,HotelSearch,Hotel Booking,Windows,C#,search hotels using city name,cityName,ids:String[]
+221,LoginCaptchaScreen,x,Windows,C#,"Login using username, password and captcha",x,loggedIn
+222,LoginCheck,x,Windows,C#,check username and password validity,"username,password",isLoggedIn
+223,LoginErrorPage,x,Windows,C#,login failed error page,x,x
+224,LoginScreen,x,Windows,C#,Login using username and password,x,loggedIn
+225,LoginScreen1,x,Windows,C#,"login using username ,password and register option",x,"userRegistered,loggedIn"
+226,Logout,x,Windows,C#,logout button,paymentStatus,loggedIn
+227,NumberOfItems,Ecommerce,Windows,C#,number of items dropdown,selectedProduct,numberOfItems
+228,PassengerDetails,Railway Booking,Windows,C#,"add details of passenger with input of name , age , gender  , phone number ",x,x
+229,PassengerDetails,Bus Booking,Windows,C#,"add details of passenger with input of name , age , gender  , phone number ",x,x
+230,PaymentFailed,x,Windows,C#,payment failed page for the given amount,x,x
+231,PaymentPageUI,x,Windows,C#,"payment page with options like credit card, debit card and cash",x,x
+232,PaymentPageUI1,x,Windows,C#,"payment page with options like credit card, debit card, netbanking, upi and cash",amount,paymentStatus
+233,ProductCategory,Ecommerce,Windows,C#,product category dropdown,loggedIn,productCategorySelected
+234,ProductFareCalculator,Ecommerce,Windows,C#,"product fare calculate using product price, number of items and discount percentage","amount,numberOfItems",amount
+235,ProductList,Ecommerce,Windows,C#,display list of product search results with select a product,"loggedIn,productSeachedList","amount,selectedProduct"
+236,ProfilePage,Ecommerce,Windows,C#,"profile page with details like name,username,email,address and phone number",x,x
+237,Register,x,Windows,C#,"registration page with details like email , password and confirm password",x,userRegistered
+238,Register1,x,Windows,C#,"registration page with details like name,email,username,password and confirm password",x,userRegistered
+239,Register2,x,Windows,C#,"registration page with details like name, username,email,address,phone number,password and confirm password",x,x
+240,RoomSelector,Hotel Booking,Windows,C#,room type and number of guests dropdown ,x,x
+241,SearchBook,Library Management,Windows,C#,search box for entering book name,x,x
+242,SearchProduct,Ecommerce,Windows,C#,searching products using product name and product category,"loggedIn,productSearchTerm,productCategorySelected",productSearchedList
+243,SearchProductUI,Ecommerce,Windows,C#,search box for entering product name to search,loggedIn,productSearchTerm
+244,ThankYouPage,Ecommerce,Windows,C#,thank you page for the username,x,x
+245,TrainBookingConfirmed,Railway Booking,Windows,C#,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+246,TrainDisplayUI,Railway Booking,Windows,C#,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+247,BusBookingConfirmed,Bus Booking,Windows,C#,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+248,BusDisplayUI,Bus Booking,Windows,C#,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+249,VerificationEmailPage,Ecommerce,Windows,C#,verification email sent page,x,x
+250,VideoList,Online Video,Windows,C#,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+251,YoutubeVideoPlay,Online Video,Windows,C#,youtube video player with video id ,videoId,x
+252,AddBookUI,Library Management,Windows,Go,"add book ui using author name, book name and year",x,x
+253,AddBookUI,Supply Chain,Windows,Go,"add book ui using author name, book name and year",x,x
+254,AuthorAndGenre,Library Management,Windows,Go,author name dropdown and genre dropdown,x,x
+255,AuthorAndGenre,Supply Chain,Windows,Go,author name dropdown and genre dropdown,x,x
+256,BerthAvailabilty,Railway Booking,Windows,Go,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+257,BookAddedSuccessfullyDialog,Library Management,Windows,Go,book added sucessfully dialog,bookAddedSuccessful,x
+258,BookAddedSuccessfullyDialog,Supply Chain,Windows,Go,book added sucessfully dialog,bookAddedSuccessful,x
+259,BookingConfirmation,Hotel Booking,Windows,Go,confirmation page display,x,x
+260,BookList,Library Management,Windows,Go,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+261,BookList,Supply Chain,Windows,Go,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+262,CalculateAgeScreen,Educational,Windows,Go,Calculate age using date picker and date of birth,loggedIn,age
+263,CityNameDropdown,Hotel Booking,Windows,Go,city name dropdown,isLoggedIn,cityName:String
+264,CityNameWithState,Hotel Booking,Windows,Go,city name dropdown with state,x,x
+265,ClassTypeAndQuota,Railway Booking,Windows,Go,class type dropdown and quota type dropdown,x,x
+266,ClassTypeAndQuota,Bus Booking,Windows,Go,class type dropdown and quota type dropdown,x,x
+267,DateOfJourney,Bus Booking,Windows,Go,date of journey input,x,x
+268,DateOfJourney,Railway Booking,Windows,Go,date of journey input,x,x
+269,DisplayAgeOutput,Educational,Windows,Go,Display the age ,age,x
+270,FlightBookingConfirmed,Flight Booking,Windows,Go,"Flight booking confirmed page with details like airline name , date of journey, from city , to city ",x,x
+271,FlightClassType,Flight Booking,Windows,Go,select flight class type from dropdown,x,x
+272,FlightDisplayUI,Flight Booking,Windows,Go,"display the searched list of flights and select a flight with details like airline code, airline name, departure, arrival , number of stops , duration and price",x,x
+273,FromCityToCity,Bus Booking,Windows,Go,From city dropdown and to city dropdown select,x,x
+274,FromCityToCity,Railway Booking,Windows,Go,From city dropdown and to city dropdown select,x,x
+275,FromCityToCityDOJ,Flight Booking,Windows,Go,From city dropdown and to city dropdown and date of journey select,x,x
+276,FromDateToDate,Hotel Booking,Windows,Go,from date and to date input,x,x
+277,GetFlights,Flight Booking,Windows,Go,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+278,GetTrains,Railway Booking,Windows,Go,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+279,GSTCalculator,x,Windows,Go,gst calculate on amount or fare,amount,amount
+280,HotelListUI,Hotel Booking,Windows,Go,list of hotels with hotel select from list,x,x
+281,HotelRentCalculator,Hotel Booking,Windows,Go,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+282,HotelSearch,Hotel Booking,Windows,Go,search hotels using city name,cityName,ids:String[]
+283,LoginCaptchaScreen,x,Windows,Go,"Login using username, password and captcha",x,loggedIn
+284,LoginCheck,x,Windows,Go,check username and password validity,"username,password",isLoggedIn
+285,LoginErrorPage,x,Windows,Go,login failed error page,x,x
+286,LoginScreen,x,Windows,Go,Login using username and password,x,loggedIn
+287,LoginScreen1,x,Windows,Go,"login using username ,password and register option",x,"userRegistered,loggedIn"
+288,Logout,x,Windows,Go,logout button,paymentStatus,loggedIn
+289,NumberOfItems,Ecommerce,Windows,Go,number of items dropdown,selectedProduct,numberOfItems
+290,PassengerDetails,Railway Booking,Windows,Go,"add details of passenger with input of name , age , gender  , phone number ",x,x
+291,PassengerDetails,Bus Booking,Windows,Go,"add details of passenger with input of name , age , gender  , phone number ",x,x
+292,PaymentFailed,x,Windows,Go,payment failed page for the given amount,x,x
+293,PaymentPageUI,x,Windows,Go,"payment page with options like credit card, debit card and cash",x,x
+294,PaymentPageUI1,x,Windows,Go,"payment page with options like credit card, debit card, netbanking, upi and cash",amount,paymentStatus
+295,ProductCategory,Ecommerce,Windows,Go,product category dropdown,loggedIn,productCategorySelected
+296,ProductFareCalculator,Ecommerce,Windows,Go,"product fare calculate using product price, number of items and discount percentage","amount,numberOfItems",amount
+297,ProductList,Ecommerce,Windows,Go,display list of product search results with select a product,"loggedIn,productSeachedList","amount,selectedProduct"
+298,ProfilePage,Ecommerce,Windows,Go,"profile page with details like name,username,email,address and phone number",x,x
+299,Register,x,Windows,Go,"registration page with details like email , password and confirm password",x,userRegistered
+300,Register1,x,Windows,Go,"registration page with details like name,email,username,password and confirm password",x,userRegistered
+301,Register2,x,Windows,Go,"registration page with details like name, username,email,address,phone number,password and confirm password",x,x
+302,RoomSelector,Hotel Booking,Windows,Go,room type and number of guests dropdown ,x,x
+303,SearchBook,Library Management,Windows,Go,search box for entering book name,x,x
+304,SearchProduct,Ecommerce,Windows,Go,searching products using product name and product category,"loggedIn,productSearchTerm,productCategorySelected",productSearchedList
+305,SearchProductUI,Ecommerce,Windows,Go,search box for entering product name to search,loggedIn,productSearchTerm
+306,ThankYouPage,Ecommerce,Windows,Go,thank you page for the username,x,x
+307,TrainBookingConfirmed,Railway Booking,Windows,Go,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+308,TrainDisplayUI,Railway Booking,Windows,Go,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+309,BusBookingConfirmed,Bus Booking,Windows,Go,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+310,BusDisplayUI,Bus Booking,Windows,Go,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+311,VerificationEmailPage,Ecommerce,Windows,Go,verification email sent page,x,x
+312,VideoList,Online Video,Windows,Go,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+313,YoutubeVideoPlay,Online Video,Windows,Go,youtube video player with video id ,videoId,x
+314,AddBookUI,Library Management,Linux,Java,"add book ui using author name, book name and year",addBook,bookAddedSuccessful:Boolean
+315,AddBookUI,Supply Chain,Linux,Java,"add book ui using author name, book name and year",addBook,bookAddedSuccessful:Boolean
+316,AgeDisplayUI,Educational,Linux,Java,display the age in years,age:Integer,x
+317,AuthorNameAndGenre,Library Management,Linux,Java,dropdown for book genre and author name,searchString,"authorName:String,genre:String"
+318,AuthorNameAndGenre,Supply Chain,Linux,Java,dropdown for book genre and author name,searchString,"authorName:String,genre:String"
+319,BerthAvailabilty,Railway Booking,Linux,Java,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+320,BookAddedSuccessfullyDialog,Library Management,Linux,Java,book added sucessfully dialog,bookAddedSuccessful,x
+321,BookAddedSuccessfullyDialog,Supply Chain,Linux,Java,book added sucessfully dialog,bookAddedSuccessful,x
+322,BookList,Library Management,Linux,Java,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+323,BookList,Supply Chain,Linux,Java,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+324,BookRentingCost,Library Management,Linux,Java,book renting cost with number of days,bookRentCost,rentingCost:Double
+325,CalculateAge,Educational,Linux,Java,calculate age using dob with date format dd-mm-yyyy,"day:String,month:String,year:String",age:Integer
+326,CalculateAgeUI,Educational,Linux,Java,date of birth input ui using date picker,x,x
+327,CityNameDropdown,Hotel Booking,Linux,Java,city name dropdown,isLoggedIn,cityName:String
+328,CityNameWithState,Hotel Booking,Linux,Java,city name dropdown with state,x,x
+329,ClassTypeAndQuota,Railway Booking,Linux,Java,class type dropdown and quota type dropdown,x,x
+330,ClassTypeAndQuota,Bus Booking,Linux,Java,class type dropdown and quota type dropdown,x,x
+331,DateOfJourney,Bus Booking,Linux,Java,date of journey input,x,x
+332,DateOfJourney,Railway Booking,Linux,Java,date of journey input,x,x
+333,EnterDateBooking,Hotel Booking,Linux,Java,date of booking input,baseRentCost,"day:String,month:String,year:String"
+334,EnterDateUI,Educational,Linux,Java,DOB input date picker with date format dd-mm-yyyy,x,"day:String,month:String,year:String"
+335,FromCityToCity,Bus Booking,Linux,Java,From city dropdown and to city dropdown select,x,x
+336,FromCityToCity,Railway Booking,Linux,Java,From city dropdown and to city dropdown select,x,x
+337,FromCityToCityDOJ,Flight Booking,Linux,Java,From city dropdown and to city dropdown and date of journey select,x,x
+338,FromDateToDate,Hotel Booking,Linux,Java,from date and to date input,x,x
+339,GetFlights,Flight Booking,Linux,Java,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+340,GetTrains,Railway Booking,Linux,Java,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+341,GSTCalculator,x,Linux,Java,gst calculate on amount or fare,rentingCost:Double,"amount:Double,gstUpdated:Boolean"
+342,HotelList,Hotel Booking,Linux,Java,"hotels list display, select hotel to get base cost",ids,baseRentCost:Double
+343,HotelRentCalculator,Hotel Booking,Linux,Java,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+344,HotelSearch,Hotel Booking,Linux,Java,search hotels using city name,cityName,ids:String[]
+345,LibraryHomeUI,Library Management,Linux,Java,homepage for library with options to search and add book,isLoggedIn,"addBook:Boolean,searchBook:Boolean"
+346,LoginError,x,Linux,Java,login error page,"loginDone,isLoggedIn",x
+347,LoginUI,x,Linux,Java,login using username password with register option,x,"loginDone:Boolean,isLoggedIn:Boolean,register:Boolean"
+348,LogoutBook,Hotel Booking,Linux,Java,logout or book another hotel,paymentDone,isLoggedIn:Boolean
+349,PassengerDetails,Railway Booking,Linux,Java,"add details of passenger with input of name , age , gender  , phone number ",x,x
+350,PassengerDetails,Bus Booking,Linux,Java,"add details of passenger with input of name , age , gender  , phone number ",x,x
+351,PaymentFailedDialog,x,Linux,Java,failed payment dialog,paymentFailed,x
+352,PaymentSuccessfullDialog,x,Linux,Java,successful payment dialog,paymentSuccessful,x
+353,PaymentUI,x,Linux,Java,payment  page with option like upi debit card and credit card,"amount,gstUpdated","paymentDone:Boolean,paymentSuccessful:Boolean,paymentFailed:Boolean"
+354,RegisterUI,x,Linux,Java,register page using username password and confirm password,register,isRegistered:Boolean
+355,RoomRentCalculator,Hotel Booking,Linux,Java,calculate fare using room type and number of person,"baseRentCost,roomTypeS,numGuests",rentingCost:Double
+356,RoomType,Hotel Booking,Linux,Java,room type and number of guests dropdown ,baseRentCost,"numGuests:Integer,roomTypeS:String"
+357,SearchBookUI,Library Management,Linux,Java,search box to enter book name,searchBook,searchString:String
+358,TrainBookingConfirmed,Railway Booking,Linux,Java,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+359,TrainDisplayUI,Railway Booking,Linux,Java,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+360,BusBookingConfirmed,Bus Booking,Linux,Java,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+361,BusDisplayUI,Bus Booking,Linux,Java,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+362,VideoList,Online Video,Linux,Java,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+363,YoutubeVideoPlay,Online Video,Linux,Java,youtube video player with video id ,videoId,x
+364,AddBookUI,Library Management,Linux,JavaFX,"add book ui using author name, book name and year",addBook,bookAddedSuccessful:Boolean
+365,AddBookUI,Supply Chain,Linux,JavaFX,"add book ui using author name, book name and year",addBook,bookAddedSuccessful:Boolean
+366,AgeDisplayUI,Educational,Linux,JavaFX,display the age in years,age:Integer,x
+367,AuthorNameAndGenre,Library Management,Linux,JavaFX,dropdown for book genre and author name,searchString,"authorName:String,genre:String"
+368,AuthorNameAndGenre,Supply Chain,Linux,JavaFX,dropdown for book genre and author name,searchString,"authorName:String,genre:String"
+369,BerthAvailabilty,Railway Booking,Linux,JavaFX,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+370,BookAddedSuccessfullyDialog,Library Management,Linux,JavaFX,book added sucessfully dialog,bookAddedSuccessful,x
+371,BookAddedSuccessfullyDialog,Supply Chain,Linux,JavaFX,book added sucessfully dialog,bookAddedSuccessful,x
+372,BookList,Library Management,Linux,JavaFX,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+373,BookList,Supply Chain,Linux,JavaFX,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+374,BookRentingCost,Library Management,Linux,JavaFX,book renting cost with number of days,bookRentCost,rentingCost:Double
+375,CalculateAge,Educational,Linux,JavaFX,calculate age using dob with date format dd-mm-yyyy,"day:String,month:String,year:String",age:Integer
+376,CalculateAgeUI,Educational,Linux,JavaFX,date of birth input ui using date picker,x,x
+377,CityNameDropdown,Hotel Booking,Linux,JavaFX,city name dropdown,isLoggedIn,cityName:String
+378,CityNameWithState,Hotel Booking,Linux,JavaFX,city name dropdown with state,x,x
+379,ClassTypeAndQuota,Railway Booking,Linux,JavaFX,class type dropdown and quota type dropdown,x,x
+380,ClassTypeAndQuota,Bus Booking,Linux,JavaFX,class type dropdown and quota type dropdown,x,x
+381,DateOfJourney,Bus Booking,Linux,JavaFX,date of journey input,x,x
+382,DateOfJourney,Railway Booking,Linux,JavaFX,date of journey input,x,x
+383,EnterDateBooking,Hotel Booking,Linux,JavaFX,date of booking input,baseRentCost,"day:String,month:String,year:String"
+384,EnterDateUI,Educational,Linux,JavaFX,DOB input date picker with date format dd-mm-yyyy,x,"day:String,month:String,year:String"
+385,FromCityToCity,Bus Booking,Linux,JavaFX,From city dropdown and to city dropdown select,x,x
+386,FromCityToCity,Railway Booking,Linux,JavaFX,From city dropdown and to city dropdown select,x,x
+387,FromCityToCityDOJ,Flight Booking,Linux,JavaFX,From city dropdown and to city dropdown and date of journey select,x,x
+388,FromDateToDate,Hotel Booking,Linux,JavaFX,from date and to date input,x,x
+389,GetFlights,Flight Booking,Linux,JavaFX,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+390,GetTrains,Railway Booking,Linux,JavaFX,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+391,GSTCalculator,x,Linux,JavaFX,gst calculate on amount or fare,rentingCost:Double,"amount:Double,gstUpdated:Boolean"
+392,HotelList,Hotel Booking,Linux,JavaFX,"hotels list display, select hotel to get base cost",ids,baseRentCost:Double
+393,HotelRentCalculator,Hotel Booking,Linux,JavaFX,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+394,HotelSearch,Hotel Booking,Linux,JavaFX,search hotels using city name,cityName,ids:String[]
+395,LibraryHomeUI,Library Management,Linux,JavaFX,homepage for library with options to search and add book,isLoggedIn,"addBook:Boolean,searchBook:Boolean"
+396,LoginError,x,Linux,JavaFX,login error page,"loginDone,isLoggedIn",x
+397,LoginUI,x,Linux,JavaFX,login using username password with register option,x,"loginDone:Boolean,isLoggedIn:Boolean,register:Boolean"
+398,LogoutBook,Hotel Booking,Linux,JavaFX,logout or book another hotel,paymentDone,isLoggedIn:Boolean
+399,PassengerDetails,Railway Booking,Linux,JavaFX,"add details of passenger with input of name , age , gender  , phone number ",x,x
+400,PassengerDetails,Bus Booking,Linux,JavaFX,"add details of passenger with input of name , age , gender  , phone number ",x,x
+401,PaymentFailedDialog,x,Linux,JavaFX,failed payment dialog,paymentFailed,x
+402,PaymentSuccessfullDialog,x,Linux,JavaFX,successful payment dialog,paymentSuccessful,x
+403,PaymentUI,x,Linux,JavaFX,payment  page with option like upi debit card and credit card,"amount,gstUpdated","paymentDone:Boolean,paymentSuccessful:Boolean,paymentFailed:Boolean"
+404,RegisterUI,x,Linux,JavaFX,register page using username password and confirm password,register,isRegistered:Boolean
+405,RoomRentCalculator,Hotel Booking,Linux,JavaFX,calculate fare using room type and number of person,"baseRentCost,roomTypeS,numGuests",rentingCost:Double
+406,RoomType,Hotel Booking,Linux,JavaFX,room type and number of guests dropdown ,baseRentCost,"numGuests:Integer,roomTypeS:String"
+407,SearchBookUI,Library Management,Linux,JavaFX,search box to enter book name,searchBook,searchString:String
+408,TrainBookingConfirmed,Railway Booking,Linux,JavaFX,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+409,TrainDisplayUI,Railway Booking,Linux,JavaFX,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+410,BusBookingConfirmed,Bus Booking,Linux,JavaFX,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+411,BusDisplayUI,Bus Booking,Linux,JavaFX,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+412,VideoList,Online Video,Linux,JavaFX,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+413,YoutubeVideoPlay,Online Video,Linux,JavaFX,youtube video player with video id ,videoId,x
+414,AddBookUI,Library Management,MacOS,Java,"add book ui using author name, book name and year",addBook,bookAddedSuccessful:Boolean
+415,AddBookUI,Supply Chain,MacOS,Java,"add book ui using author name, book name and year",addBook,bookAddedSuccessful:Boolean
+416,AgeDisplayUI,Educational,MacOS,Java,display the age in years,age:Integer,x
+417,AuthorNameAndGenre,Library Management,MacOS,Java,dropdown for book genre and author name,searchString,"authorName:String,genre:String"
+418,AuthorNameAndGenre,Supply Chain,MacOS,Java,dropdown for book genre and author name,searchString,"authorName:String,genre:String"
+419,BerthAvailabilty,Railway Booking,MacOS,Java,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+420,BookAddedSuccessfullyDialog,Library Management,MacOS,Java,book added sucessfully dialog,bookAddedSuccessful,x
+421,BookAddedSuccessfullyDialog,Supply Chain,MacOS,Java,book added sucessfully dialog,bookAddedSuccessful,x
+422,BookList,Library Management,MacOS,Java,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+423,BookList,Supply Chain,MacOS,Java,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+424,BookRentingCost,Library Management,MacOS,Java,book renting cost with number of days,bookRentCost,rentingCost:Double
+425,CalculateAge,Educational,MacOS,Java,calculate age using dob with date format dd-mm-yyyy,"day:String,month:String,year:String",age:Integer
+426,CalculateAgeUI,Educational,MacOS,Java,date of birth input ui using date picker,x,x
+427,CityNameDropdown,Hotel Booking,MacOS,Java,city name dropdown,isLoggedIn,cityName:String
+428,CityNameWithState,Hotel Booking,MacOS,Java,city name dropdown with state,x,x
+429,ClassTypeAndQuota,Railway Booking,MacOS,Java,class type dropdown and quota type dropdown,x,x
+430,ClassTypeAndQuota,Bus Booking,MacOS,Java,class type dropdown and quota type dropdown,x,x
+431,DateOfJourney,Bus Booking,MacOS,Java,date of journey input,x,x
+432,DateOfJourney,Railway Booking,MacOS,Java,date of journey input,x,x
+433,EnterDateBooking,Hotel Booking,MacOS,Java,date of booking input,baseRentCost,"day:String,month:String,year:String"
+434,EnterDateUI,Educational,MacOS,Java,DOB input date picker with date format dd-mm-yyyy,x,"day:String,month:String,year:String"
+435,FromCityToCity,Bus Booking,MacOS,Java,From city dropdown and to city dropdown select,x,x
+436,FromCityToCity,Railway Booking,MacOS,Java,From city dropdown and to city dropdown select,x,x
+437,FromCityToCityDOJ,Flight Booking,MacOS,Java,From city dropdown and to city dropdown and date of journey select,x,x
+438,FromDateToDate,Hotel Booking,MacOS,Java,from date and to date input,x,x
+439,GetFlights,Flight Booking,MacOS,Java,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+440,GetTrains,Railway Booking,MacOS,Java,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+441,GSTCalculator,x,MacOS,Java,gst calculate on amount or fare,rentingCost:Double,"amount:Double,gstUpdated:Boolean"
+442,HotelList,Hotel Booking,MacOS,Java,"hotels list display, select hotel to get base cost",ids,baseRentCost:Double
+443,HotelRentCalculator,Hotel Booking,MacOS,Java,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+444,HotelSearch,Hotel Booking,MacOS,Java,search hotels using city name,cityName,ids:String[]
+445,LibraryHomeUI,Library Management,MacOS,Java,homepage for library with options to search and add book,isLoggedIn,"addBook:Boolean,searchBook:Boolean"
+446,LoginError,x,MacOS,Java,login error page,"loginDone,isLoggedIn",x
+447,LoginUI,x,MacOS,Java,login using username password with register option,x,"loginDone:Boolean,isLoggedIn:Boolean,register:Boolean"
+448,LogoutBook,Hotel Booking,MacOS,Java,logout or book another hotel,paymentDone,isLoggedIn:Boolean
+449,PassengerDetails,Railway Booking,MacOS,Java,"add details of passenger with input of name , age , gender  , phone number ",x,x
+450,PassengerDetails,Bus Booking,MacOS,Java,"add details of passenger with input of name , age , gender  , phone number ",x,x
+451,PaymentFailedDialog,x,MacOS,Java,failed payment dialog,paymentFailed,x
+452,PaymentSuccessfullDialog,x,MacOS,Java,successful payment dialog,paymentSuccessful,x
+453,PaymentUI,x,MacOS,Java,payment  page with option like upi debit card and credit card,"amount,gstUpdated","paymentDone:Boolean,paymentSuccessful:Boolean,paymentFailed:Boolean"
+454,RegisterUI,x,MacOS,Java,register page using username password and confirm password,register,isRegistered:Boolean
+455,RoomRentCalculator,Hotel Booking,MacOS,Java,calculate fare using room type and number of person,"baseRentCost,roomTypeS,numGuests",rentingCost:Double
+456,RoomType,Hotel Booking,MacOS,Java,room type and number of guests dropdown ,baseRentCost,"numGuests:Integer,roomTypeS:String"
+457,SearchBookUI,Library Management,MacOS,Java,search box to enter book name,searchBook,searchString:String
+458,TrainBookingConfirmed,Railway Booking,MacOS,Java,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+459,TrainDisplayUI,Railway Booking,MacOS,Java,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+460,BusBookingConfirmed,Bus Booking,MacOS,Java,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+461,BusDisplayUI,Bus Booking,MacOS,Java,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+462,VideoList,Online Video,MacOS,Java,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+463,YoutubeVideoPlay,Online Video,MacOS,Java,youtube video player with video id ,videoId,x
+464,AddBookUI,Library Management,Windows,Java,"add book ui using author name, book name and year",addBook,bookAddedSuccessful:Boolean
+465,AddBookUI,Supply Chain,Windows,Java,"add book ui using author name, book name and year",addBook,bookAddedSuccessful:Boolean
+466,AgeDisplayUI,Educational,Windows,Java,display the age in years,age:Integer,x
+467,AuthorNameAndGenre,Library Management,Windows,Java,dropdown for book genre and author name,searchString,"authorName:String,genre:String"
+468,AuthorNameAndGenre,Supply Chain,Windows,Java,dropdown for book genre and author name,searchString,"authorName:String,genre:String"
+469,BerthAvailabilty,Railway Booking,Windows,Java,"Check for available berths using the values like train number ,DOJ, from and to city",x,x
+470,BerthAvailabilty,Bus Booking,Windows,Java,"Check for available berths using the values like train number ,DOJ, from and to city",x,x
+471,BerthAvailabilty,Railway Booking,Windows,Java,Check for available berths after booking confirmation of train,x,x
+472,BookSubmission,Railway Booking,Windows,Java,Display final booking confirmation after payment,x,x
+473,BookAddedSuccessfullyDialog,Library Management,Windows,Java,book added sucessfully dialog,bookAddedSuccessful,x
+474,BookAddedSuccessfullyDialog,Supply Chain,Windows,Java,book added sucessfully dialog,bookAddedSuccessful,x
+475,BookList,Library Management,Windows,Java,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+476,BookList,Supply Chain,Windows,Java,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+477,BookRentingCost,Library Management,Windows,Java,book renting cost with number of days,bookRentCost,rentingCost:Double
+478,CalculateAge,Railway Booking,Windows,Java,Calculate age using calendar,"day:String,month:String,year:String",age:Integer
+479,CalculateAgeUI,Educational,Windows,Java,date of birth input ui using date picker,x,x
+480,CityName,Hotel Booking,Windows,Java,Dropdown displaying all cities name,isLoggedIn,cityName:String
+481,CityNameWithState,Railway Booking,Windows,Java,City name dropdown with state,x,x
+482,Class,Railway Booking,Windows,Java,Display different class of train,x,x
+483,ClassTypeAndQuota,Bus Booking,Windows,Java,class type dropdown and quota type dropdown,x,x
+484,DateOfJourney,Bus Booking,Windows,Java,date of journey input,x,x
+485,DateOfJourney,Railway Booking,Windows,Java,Display calendar to pick date of journey,x,x
+486,EnterDateBooking,Hotel Booking,Windows,Java,date of booking input,baseRentCost,"day:String,month:String,year:String"
+487,EnterDateUI,Educational,Windows,Java,DOB input date picker with date format dd-mm-yyyy,x,"day:String,month:String,year:String"
+488,FromCityToCity,Bus Booking,Windows,Java,From city dropdown and to city dropdown select,x,x
+489,FareCalculator,Railway Booking,Windows,Java,"Fare calculation according to distance, train class and number of persons of the train",x,x
+490,FromCityToCityDOJ,Flight Booking,Windows,Java,From city dropdown and to city dropdown and date of journey select,x,x
+491,FareCalculator,Railway Booking,Windows,Java,Fare calculation according to distance and train of the class,x,x
+492,GetFlights,Flight Booking,Windows,Java,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+493,GetTrains,Railway Booking,Windows,Java,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+494,GSTCalculator,x,Windows,Java,gst calculate on amount or fare,rentingCost:Double,"amount:Double,gstUpdated:Boolean"
+495,HotelList,Hotel Booking,Windows,Java,"hotels list display, select hotel to get base cost",ids,baseRentCost:Double
+496,HotelRentCalculator,Hotel Booking,Windows,Java,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+497,HotelSearch,Hotel Booking,Windows,Java,search hotels using city name,cityName,ids:String[]
+498,LibraryHomeUI,Library Management,Windows,Java,homepage for library with options to search and add book,isLoggedIn,"addBook:Boolean,searchBook:Boolean"
+499,Login,Railway Booking,Windows,Java,Login using username and password with captcha protection,"loginDone,isLoggedIn",x
+500,Login,Railway Booking,Windows,Java,Login using username and password ,x,"loginDone:Boolean,isLoggedIn:Boolean,register:Boolean"
+501,LogoutBook,Hotel Booking,Windows,Java,Logout or book another hotel,paymentDone,isLoggedIn:Boolean
+502,PassengerDetails,Railway Booking,Windows,Java,"Add details of passenger with input of name,  age,  gender, phone number ",x,x
+503,PassengerDetails,Bus Booking,Windows,Java,"add details of passenger with input of name , age , gender  , phone number ",x,x
+504,PaymentFailedDialog,x,Windows,Java,failed payment dialog,paymentFailed,x
+505,Payment,Railway Booking,Windows,Java,"Payment page displaying options like credit card, debit card, UPI",paymentSuccessful,x
+506,Payment,Railway Booking,Windows,Java,"Payment  page with option like upi debit card, credit card and also using cash","amount,gstUpdated","paymentDone:Boolean,paymentSuccessful:Boolean,paymentFailed:Boolean"
+507,RegisterUI,x,Windows,Java,register page using username password and confirm password,register,isRegistered:Boolean
+508,RoomRentCalculator,Hotel Booking,Windows,Java,calculate fare using room type and number of person,"baseRentCost,roomTypeS,numGuests",rentingCost:Double
+509,RoomType,Hotel Booking,Windows,Java,room type and number of guests dropdown ,baseRentCost,"numGuests:Integer,roomTypeS:String"
+510,SearchBookUI,Library Management,Windows,Java,search box to enter book name,searchBook,searchString:String
+511,TrainBookingConfirmed,Railway Booking,Windows,Java,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+512,TrainDisplayUI,Railway Booking,Windows,Java,"Display list of trains with details like train number, train name, class and date",x,x
+513,TrainNumber,Railway Booking,Windows,Java,Display unique id of train number,x,x
+514,BusDisplayUI,Bus Booking,Windows,Java,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+515,VideoList,Online Video,Windows,Java,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+516,YoutubeVideoPlay,Online Video,Windows,Java,youtube video player with video id ,videoId,x
+517,AddBookUI,Library Management,MacOS,JavaFX,"add book ui using author name, book name and year",addBook,bookAddedSuccessful:Boolean
+518,AddBookUI,Supply Chain,MacOS,JavaFX,"add book ui using author name, book name and year",addBook,bookAddedSuccessful:Boolean
+519,AgeDisplayUI,Educational,MacOS,JavaFX,display the age in years,age:Integer,x
+520,AuthorNameAndGenre,Library Management,MacOS,JavaFX,dropdown for book genre and author name,searchString,"authorName:String,genre:String"
+521,AuthorNameAndGenre,Supply Chain,MacOS,JavaFX,dropdown for book genre and author name,searchString,"authorName:String,genre:String"
+522,BerthAvailabilty,Railway Booking,MacOS,JavaFX,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+523,BookAddedSuccessfullyDialog,Library Management,MacOS,JavaFX,book added sucessfully dialog,bookAddedSuccessful,x
+524,BookAddedSuccessfullyDialog,Supply Chain,MacOS,JavaFX,book added sucessfully dialog,bookAddedSuccessful,x
+525,BookList,Library Management,MacOS,JavaFX,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+526,BookList,Supply Chain,MacOS,JavaFX,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+527,BookRentingCost,Library Management,MacOS,JavaFX,book renting cost with number of days,bookRentCost,rentingCost:Double
+528,CalculateAge,Educational,MacOS,JavaFX,calculate age using dob with date format dd-mm-yyyy,"day:String,month:String,year:String",age:Integer
+529,CalculateAgeUI,Educational,MacOS,JavaFX,date of birth input ui using date picker,x,x
+530,CityNameDropdown,Hotel Booking,MacOS,JavaFX,city name dropdown,isLoggedIn,cityName:String
+531,CityNameWithState,Hotel Booking,MacOS,JavaFX,city name dropdown with state,x,x
+532,ClassTypeAndQuota,Railway Booking,MacOS,JavaFX,class type dropdown and quota type dropdown,x,x
+533,ClassTypeAndQuota,Bus Booking,MacOS,JavaFX,class type dropdown and quota type dropdown,x,x
+534,DateOfJourney,Bus Booking,MacOS,JavaFX,date of journey input,x,x
+535,DateOfJourney,Railway Booking,MacOS,JavaFX,date of journey input,x,x
+536,EnterDateBooking,Hotel Booking,MacOS,JavaFX,date of booking input,baseRentCost,"day:String,month:String,year:String"
+537,EnterDateUI,Educational,MacOS,JavaFX,DOB input date picker with date format dd-mm-yyyy,x,"day:String,month:String,year:String"
+538,FromCityToCity,Bus Booking,MacOS,JavaFX,From city dropdown and to city dropdown select,x,x
+539,FromCityToCity,Railway Booking,MacOS,JavaFX,From city dropdown and to city dropdown select,x,x
+540,FromCityToCityDOJ,Flight Booking,MacOS,JavaFX,From city dropdown and to city dropdown and date of journey select,x,x
+541,FromDateToDate,Hotel Booking,MacOS,JavaFX,from date and to date input,x,x
+542,GetFlights,Flight Booking,MacOS,JavaFX,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+543,GetTrains,Railway Booking,MacOS,JavaFX,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+544,GSTCalculator,x,MacOS,JavaFX,gst calculate on amount or fare,rentingCost:Double,"amount:Double,gstUpdated:Boolean"
+545,HotelList,Hotel Booking,MacOS,JavaFX,"hotels list display, select hotel to get base cost",ids,baseRentCost:Double
+546,HotelRentCalculator,Hotel Booking,MacOS,JavaFX,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+547,HotelSearch,Hotel Booking,MacOS,JavaFX,search hotels using city name,cityName,ids:String[]
+548,LibraryHomeUI,Library Management,MacOS,JavaFX,homepage for library with options to search and add book,isLoggedIn,"addBook:Boolean,searchBook:Boolean"
+549,LoginError,x,MacOS,JavaFX,login error page,"loginDone,isLoggedIn",x
+550,LoginUI,x,MacOS,JavaFX,login using username password with register option,x,"loginDone:Boolean,isLoggedIn:Boolean,register:Boolean"
+551,LogoutBook,Hotel Booking,MacOS,JavaFX,logout or book another hotel,paymentDone,isLoggedIn:Boolean
+552,PassengerDetails,Railway Booking,MacOS,JavaFX,"add details of passenger with input of name , age , gender  , phone number ",x,x
+553,PassengerDetails,Bus Booking,MacOS,JavaFX,"add details of passenger with input of name , age , gender  , phone number ",x,x
+554,PaymentFailedDialog,x,MacOS,JavaFX,failed payment dialog,paymentFailed,x
+555,PaymentSuccessfullDialog,x,MacOS,JavaFX,successful payment dialog,paymentSuccessful,x
+556,PaymentUI,x,MacOS,JavaFX,payment  page with option like upi debit card and credit card,"amount,gstUpdated","paymentDone:Boolean,paymentSuccessful:Boolean,paymentFailed:Boolean"
+557,RegisterUI,x,MacOS,JavaFX,register page using username password and confirm password,register,isRegistered:Boolean
+558,RoomRentCalculator,Hotel Booking,MacOS,JavaFX,calculate fare using room type and number of person,"baseRentCost,roomTypeS,numGuests",rentingCost:Double
+559,RoomType,Hotel Booking,MacOS,JavaFX,room type and number of guests dropdown ,baseRentCost,"numGuests:Integer,roomTypeS:String"
+560,SearchBookUI,Library Management,MacOS,JavaFX,search box to enter book name,searchBook,searchString:String
+561,TrainBookingConfirmed,Railway Booking,MacOS,JavaFX,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+562,TrainDisplayUI,Railway Booking,MacOS,JavaFX,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+563,BusBookingConfirmed,Bus Booking,MacOS,JavaFX,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+564,BusDisplayUI,Bus Booking,MacOS,JavaFX,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+565,VideoList,Online Video,MacOS,JavaFX,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+566,YoutubeVideoPlay,Online Video,MacOS,JavaFX,youtube video player with video id ,videoId,x
+567,AddBookUI,Library Management,Windows,JavaFX,"add book ui using author name, book name and year",addBook,bookAddedSuccessful:Boolean
+568,AddBookUI,Supply Chain,Windows,JavaFX,"add book ui using author name, book name and year",addBook,bookAddedSuccessful:Boolean
+569,AgeDisplayUI,Educational,Windows,JavaFX,display the age in years,age:Integer,x
+570,AuthorNameAndGenre,Library Management,Windows,JavaFX,dropdown for book genre and author name,searchString,"authorName:String,genre:String"
+571,AuthorNameAndGenre,Supply Chain,Windows,JavaFX,dropdown for book genre and author name,searchString,"authorName:String,genre:String"
+572,BerthAvailabilty,Railway Booking,Windows,JavaFX,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+573,BerthAvailabilty,Bus Booking,Windows,JavaFX,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+574,BerthAvailabilty,Bus Booking,Windows,JavaFX,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+575,BerthAvailabilty,Bus Booking,Windows,JavaFX,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+576,BookAddedSuccessfullyDialog,Library Management,Windows,JavaFX,book added sucessfully dialog,bookAddedSuccessful,x
+577,BookAddedSuccessfullyDialog,Supply Chain,Windows,JavaFX,book added sucessfully dialog,bookAddedSuccessful,x
+578,BookList,Library Management,Windows,JavaFX,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+579,BookList,Supply Chain,Windows,JavaFX,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+580,BookRentingCost,Library Management,Windows,JavaFX,book renting cost with number of days,bookRentCost,rentingCost:Double
+581,CalculateAge,Educational,Windows,JavaFX,calculate age using dob with date format dd-mm-yyyy,"day:String,month:String,year:String",age:Integer
+582,CalculateAgeUI,Educational,Windows,JavaFX,date of birth input ui using date picker,x,x
+583,CityNameDropdown,Hotel Booking,Windows,JavaFX,city name dropdown,isLoggedIn,cityName:String
+584,CityNameWithState,Hotel Booking,Windows,JavaFX,city name dropdown with state,x,x
+585,ClassTypeAndQuota,Railway Booking,Windows,JavaFX,class type dropdown and quota type dropdown,x,x
+586,ClassTypeAndQuota,Bus Booking,Windows,JavaFX,class type dropdown and quota type dropdown,x,x
+587,DateOfJourney,Bus Booking,Windows,JavaFX,date of journey input,x,x
+588,DateOfJourney,Railway Booking,Windows,JavaFX,date of journey input,x,x
+589,EnterDateBooking,Hotel Booking,Windows,JavaFX,date of booking input,baseRentCost,"day:String,month:String,year:String"
+590,EnterDateUI,Educational,Windows,JavaFX,DOB input date picker with date format dd-mm-yyyy,x,"day:String,month:String,year:String"
+591,FromCityToCity,Bus Booking,Windows,JavaFX,From city dropdown and to city dropdown select,x,x
+592,FromCityToCity,Railway Booking,Windows,JavaFX,From city dropdown and to city dropdown select,x,x
+593,FromCityToCityDOJ,Flight Booking,Windows,JavaFX,From city dropdown and to city dropdown and date of journey select,x,x
+594,FromDateToDate,Hotel Booking,Windows,JavaFX,from date and to date input,x,x
+595,GetFlights,Flight Booking,Windows,JavaFX,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+596,GetTrains,Railway Booking,Windows,JavaFX,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+597,GSTCalculator,x,Windows,JavaFX,gst calculate on amount or fare,rentingCost:Double,"amount:Double,gstUpdated:Boolean"
+598,HotelList,Hotel Booking,Windows,JavaFX,"hotels list display, select hotel to get base cost",ids,baseRentCost:Double
+599,HotelRentCalculator,Hotel Booking,Windows,JavaFX,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+600,HotelSearch,Hotel Booking,Windows,JavaFX,search hotels using city name,cityName,ids:String[]
+601,LibraryHomeUI,Library Management,Windows,JavaFX,homepage for library with options to search and add book,isLoggedIn,"addBook:Boolean,searchBook:Boolean"
+602,LoginError,x,Windows,JavaFX,login error page,"loginDone,isLoggedIn",x
+603,LoginUI,x,Windows,JavaFX,login using username password with register option,x,"loginDone:Boolean,isLoggedIn:Boolean,register:Boolean"
+604,LogoutBook,Hotel Booking,Windows,JavaFX,logout or book another hotel,paymentDone,isLoggedIn:Boolean
+605,PassengerDetails,Railway Booking,Windows,JavaFX,"add details of passenger with input of name , age , gender  , phone number ",x,x
+606,PassengerDetails,Bus Booking,Windows,JavaFX,"add details of passenger with input of name , age , gender  , phone number ",x,x
+607,PaymentFailedDialog,x,Windows,JavaFX,failed payment dialog,paymentFailed,x
+608,PaymentSuccessfullDialog,x,Windows,JavaFX,successful payment dialog,paymentSuccessful,x
+609,PaymentUI,x,Windows,JavaFX,payment  page with option like upi debit card and credit card,"amount,gstUpdated","paymentDone:Boolean,paymentSuccessful:Boolean,paymentFailed:Boolean"
+610,RegisterUI,x,Windows,JavaFX,register page using username password and confirm password,register,isRegistered:Boolean
+611,RoomRentCalculator,Hotel Booking,Windows,JavaFX,calculate fare using room type and number of person,"baseRentCost,roomTypeS,numGuests",rentingCost:Double
+612,RoomType,Hotel Booking,Windows,JavaFX,room type and number of guests dropdown ,baseRentCost,"numGuests:Integer,roomTypeS:String"
+613,SearchBookUI,Library Management,Windows,JavaFX,search box to enter book name,searchBook,searchString:String
+614,TrainBookingConfirmed,Railway Booking,Windows,JavaFX,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+615,TrainDisplayUI,Railway Booking,Windows,JavaFX,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+616,BusBookingConfirmed,Bus Booking,Windows,JavaFX,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+617,BusDisplayUI,Bus Booking,Windows,JavaFX,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+618,VideoList,Online Video,Windows,JavaFX,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+619,YoutubeVideoPlay,Online Video,Windows,JavaFX,youtube video player with video id ,videoId,x
+620,AddBookUI,Library Management,Linux,Php,"add book ui using author name, book name and year",x,x
+621,AddBookUI,Supply Chain,Linux,Php,"add book ui using author name, book name and year",x,x
+622,AuthorAndGenre,Library Management,Linux,Php,author name dropdown and genre dropdown,x,x
+623,AuthorAndGenre,Supply Chain,Linux,Php,author name dropdown and genre dropdown,x,x
+624,BerthAvailabilty,Railway Booking,Linux,Php,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+625,BerthAvailabilty,Bus Booking,Linux,Php,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+626,BerthAvailabilty,Bus Booking,Linux,Php,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+627,BerthAvailabilty,Bus Booking,Linux,Php,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+628,BookAddedSuccessfullyDialog,Library Management,Linux,Php,book added sucessfully dialog,bookAddedSuccessful,x
+629,BookAddedSuccessfullyDialog,Supply Chain,Linux,Php,book added sucessfully dialog,bookAddedSuccessful,x
+630,BookingConfirmation,Hotel Booking,Linux,Php,confirmation page display,x,x
+631,BookList,Library Management,Linux,Php,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+632,BookList,Supply Chain,Linux,Php,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+633,CalculateAgeScreen,Educational,Linux,Php,Calculate age using date picker and date of birth,loggedIn,age
+634,CityNameDropdown,Hotel Booking,Linux,Php,city name dropdown,isLoggedIn,cityName:String
+635,CityNameWithState,Hotel Booking,Linux,Php,city name dropdown with state,x,x
+636,ClassTypeAndQuota,Railway Booking,Linux,Php,class type dropdown and quota type dropdown,x,x
+637,ClassTypeAndQuota,Bus Booking,Linux,Php,class type dropdown and quota type dropdown,x,x
+638,DateOfJourney,Bus Booking,Linux,Php,date of journey input,x,x
+639,DateOfJourney,Railway Booking,Linux,Php,date of journey input,x,x
+640,DisplayAgeOutput,Educational,Linux,Php,Display the age ,age,x
+641,FlightBookingConfirmed,Flight Booking,Linux,Php,"Flight booking confirmed page with details like airline name , date of journey, from city , to city ",x,x
+642,FlightClassType,Flight Booking,Linux,Php,select flight class type from dropdown,x,x
+643,FlightDisplayUI,Flight Booking,Linux,Php,"display the searched list of flights and select a flight with details like airline code, airline name, departure, arrival , number of stops , duration and price",x,x
+644,FromCityToCity,Bus Booking,Linux,Php,From city dropdown and to city dropdown select,x,x
+645,FromCityToCity,Railway Booking,Linux,Php,From city dropdown and to city dropdown select,x,x
+646,FromCityToCityDOJ,Flight Booking,Linux,Php,From city dropdown and to city dropdown and date of journey select,x,x
+647,FromDateToDate,Hotel Booking,Linux,Php,from date and to date input,x,x
+648,GetFlights,Flight Booking,Linux,Php,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+649,GetTrains,Railway Booking,Linux,Php,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+650,GSTCalculator,x,Linux,Php,gst calculate on amount or fare,amount,amount
+651,HotelListUI,Hotel Booking,Linux,Php,list of hotels with hotel select from list,x,x
+652,HotelRentCalculator,Hotel Booking,Linux,Php,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+653,HotelSearch,Hotel Booking,Linux,Php,search for hotels using city and state name,x,x
+654,LoginCaptchaScreen,x,Linux,Php,"Login using username, password and captcha",x,loggedIn
+655,LoginCheck,x,Linux,Php,check username and password validity,"username,password",isLoggedIn
+656,LoginErrorPage,x,Linux,Php,login failed error page,x,x
+657,LoginScreen,x,Linux,Php,Login using username and password,x,loggedIn
+658,LoginScreen1,x,Linux,Php,"login using username ,password and register option",x,"userRegistered,loggedIn"
+659,Logout,x,Linux,Php,logout button,paymentStatus,loggedIn
+660,NumberOfItems,Ecommerce,Linux,Php,number of items dropdown,selectedProduct,numberOfItems
+661,PassengerDetails,Railway Booking,Linux,Php,"add details of passenger with input of name , age , gender  , phone number ",x,x
+662,PassengerDetails,Bus Booking,Linux,Php,"add details of passenger with input of name , age , gender  , phone number ",x,x
+663,PaymentFailed,x,Linux,Php,payment failed page for the given amount,x,x
+664,PaymentPageUI,x,Linux,Php,"payment page with options like credit card, debit card and cash",x,x
+665,PaymentPageUI1,x,Linux,Php,"payment page with options like credit card, debit card, netbanking, upi and cash",amount,paymentStatus
+666,ProductCategory,Ecommerce,Linux,Php,product category dropdown,loggedIn,productCategorySelected
+667,ProductFareCalculator,Ecommerce,Linux,Php,"product fare calculate using product price, number of items and discount percentage","amount,numberOfItems",amount
+668,ProductList,Ecommerce,Linux,Php,display list of product search results with select a product,"loggedIn,productSeachedList","amount,selectedProduct"
+669,ProfilePage,Ecommerce,Linux,Php,"profile page with details like name,username,email,address and phone number",x,x
+670,Register,x,Linux,Php,"registration page with details like email , password and confirm password",x,userRegistered
+671,Register1,x,Linux,Php,"registration page with details like name,email,username,password and confirm password",x,userRegistered
+672,Register2,x,Linux,Php,"registration page with details like name, username,email,address,phone number,password and confirm password",x,x
+673,RoomSelector,Hotel Booking,Linux,Php,room type and number of guests dropdown ,x,x
+674,SearchBook,Library Management,Linux,Php,search box for entering book name,x,x
+675,SearchProduct,Ecommerce,Linux,Php,searching products using product name and product category,"loggedIn,productSearchTerm,productCategorySelected",productSearchedList
+676,SearchProductUI,Ecommerce,Linux,Php,search box for entering product name to search,loggedIn,productSearchTerm
+677,ThankYouPage,Ecommerce,Linux,Php,thank you page for the username,x,x
+678,TrainBookingConfirmed,Railway Booking,Linux,Php,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+679,TrainDisplayUI,Railway Booking,Linux,Php,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+680,BusBookingConfirmed,Bus Booking,Linux,Php,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+681,BusDisplayUI,Bus Booking,Linux,Php,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+682,VerificationEmailPage,Ecommerce,Linux,Php,verification email sent page,x,x
+683,VideoList,Online Video,Linux,Php,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+684,YoutubeVideoPlay,Online Video,Linux,Php,youtube video player with video id ,videoId,x
+685,AddBookUI,Library Management,MacOS,Php,"add book ui using author name, book name and year",x,x
+686,AddBookUI,Supply Chain,MacOS,Php,"add book ui using author name, book name and year",addBook,bookAddedSuccessful:Boolean
+687,AuthorAndGenre,Library Management,MacOS,Php,author name dropdown and genre dropdown,x,x
+688,AuthorAndGenre,Supply Chain,MacOS,Php,author name dropdown and genre dropdown,x,x
+689,BerthAvailabilty,Railway Booking,MacOS,Php,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+690,BookAddedSuccessfullyDialog,Library Management,MacOS,Php,book added sucessfully dialog,bookAddedSuccessful,x
+691,BookAddedSuccessfullyDialog,Supply Chain,MacOS,Php,book added sucessfully dialog,bookAddedSuccessful,x
+692,BookingConfirmation,Hotel Booking,MacOS,Php,confirmation page display,x,x
+693,BookList,Library Management,MacOS,Php,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+694,BookList,Supply Chain,MacOS,Php,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+695,CalculateAgeScreen,Educational,MacOS,Php,Calculate age using date picker and date of birth,loggedIn,age
+696,CityNameDropdown,Hotel Booking,MacOS,Php,city name dropdown,isLoggedIn,cityName:String
+697,CityNameWithState,Hotel Booking,MacOS,Php,city name dropdown with state,x,x
+698,ClassTypeAndQuota,Railway Booking,MacOS,Php,class type dropdown and quota type dropdown,x,x
+699,ClassTypeAndQuota,Bus Booking,MacOS,Php,class type dropdown and quota type dropdown,x,x
+700,DateOfJourney,Bus Booking,MacOS,Php,date of journey input,x,x
+701,DateOfJourney,Railway Booking,MacOS,Php,date of journey input,x,x
+702,DisplayAgeOutput,Educational,MacOS,Php,Display the age ,age,x
+703,FlightBookingConfirmed,Flight Booking,MacOS,Php,"Flight booking confirmed page with details like airline name , date of journey, from city , to city ",x,x
+704,FlightClassType,Flight Booking,MacOS,Php,select flight class type from dropdown,x,x
+705,FlightDisplayUI,Flight Booking,MacOS,Php,"display the searched list of flights and select a flight with details like airline code, airline name, departure, arrival , number of stops , duration and price",x,x
+706,FromCityToCity,Bus Booking,MacOS,Php,From city dropdown and to city dropdown select,x,x
+707,FromCityToCity,Railway Booking,MacOS,Php,From city dropdown and to city dropdown select,x,x
+708,FromCityToCityDOJ,Flight Booking,MacOS,Php,From city dropdown and to city dropdown and date of journey select,x,x
+709,FromDateToDate,Hotel Booking,MacOS,Php,from date and to date input,x,x
+710,GetFlights,Flight Booking,MacOS,Php,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+711,GetTrains,Railway Booking,MacOS,Php,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+712,GSTCalculator,x,MacOS,Php,gst calculate on amount or fare,amount,amount
+713,HotelListUI,Hotel Booking,MacOS,Php,list of hotels with hotel select from list,x,x
+714,HotelRentCalculator,Hotel Booking,MacOS,Php,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+715,HotelSearch,Hotel Booking,MacOS,Php,search for hotels using city and state name,x,x
+716,LoginCaptchaScreen,x,MacOS,Php,"Login using username, password and captcha",x,loggedIn
+717,LoginCheck,x,MacOS,Php,check username and password validity,"username,password",isLoggedIn
+718,LoginErrorPage,x,MacOS,Php,login failed error page,x,x
+719,LoginScreen,x,MacOS,Php,Login using username and password,x,loggedIn
+720,LoginScreen1,x,MacOS,Php,"login using username ,password and register option",x,"userRegistered,loggedIn"
+721,Logout,x,MacOS,Php,logout button,paymentStatus,loggedIn
+722,NumberOfItems,Ecommerce,MacOS,Php,number of items dropdown,selectedProduct,numberOfItems
+723,PassengerDetails,Railway Booking,MacOS,Php,"add details of passenger with input of name , age , gender  , phone number ",x,x
+724,PassengerDetails,Bus Booking,MacOS,Php,"add details of passenger with input of name , age , gender  , phone number ",x,x
+725,PaymentFailed,x,MacOS,Php,payment failed page for the given amount,x,x
+726,PaymentPageUI,x,MacOS,Php,"payment page with options like credit card, debit card and cash",x,x
+727,PaymentPageUI1,x,MacOS,Php,"payment page with options like credit card, debit card, netbanking, upi and cash",amount,paymentStatus
+728,ProductCategory,Ecommerce,MacOS,Php,product category dropdown,loggedIn,productCategorySelected
+729,ProductFareCalculator,Ecommerce,MacOS,Php,"product fare calculate using product price, number of items and discount percentage","amount,numberOfItems",amount
+730,ProductList,Ecommerce,MacOS,Php,display list of product search results with select a product,"loggedIn,productSeachedList","amount,selectedProduct"
+731,ProfilePage,Ecommerce,MacOS,Php,"profile page with details like name,username,email,address and phone number",x,x
+732,Register,x,MacOS,Php,"registration page with details like email , password and confirm password",x,userRegistered
+733,Register1,x,MacOS,Php,"registration page with details like name,email,username,password and confirm password",x,userRegistered
+734,Register2,x,MacOS,Php,"registration page with details like name, username,email,address,phone number,password and confirm password",x,x
+735,RoomSelector,Hotel Booking,MacOS,Php,room type and number of guests dropdown ,x,x
+736,SearchBook,Library Management,MacOS,Php,search box for entering book name,x,x
+737,SearchProduct,Ecommerce,MacOS,Php,searching products using product name and product category,"loggedIn,productSearchTerm,productCategorySelected",productSearchedList
+738,SearchProductUI,Ecommerce,MacOS,Php,search box for entering product name to search,loggedIn,productSearchTerm
+739,ThankYouPage,Ecommerce,MacOS,Php,thank you page for the username,x,x
+740,TrainBookingConfirmed,Railway Booking,MacOS,Php,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+741,TrainDisplayUI,Railway Booking,MacOS,Php,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+742,BusBookingConfirmed,Bus Booking,MacOS,Php,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+743,BusDisplayUI,Bus Booking,MacOS,Php,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+744,VerificationEmailPage,Ecommerce,MacOS,Php,verification email sent page,x,x
+745,VideoList,Online Video,MacOS,Php,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+746,YoutubeVideoPlay,Online Video,MacOS,Php,youtube video player with video id ,videoId,x
+747,AddBookUI,Library Management,Windows,Php,"add book ui using author name, book name and year",x,x
+748,AddBookUI,Supply Chain,Windows,Php,"add book ui using author name, book name and year",x,x
+749,AuthorAndGenre,Library Management,Windows,Php,author name dropdown and genre dropdown,x,x
+750,AuthorAndGenre,Supply Chain,Windows,Php,author name dropdown and genre dropdown,x,x
+751,BerthAvailabilty,Railway Booking,Windows,Php,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+752,BookAddedSuccessfullyDialog,Library Management,Windows,Php,book added sucessfully dialog,bookAddedSuccessful,x
+753,BookAddedSuccessfullyDialog,Supply Chain,Windows,Php,book added sucessfully dialog,bookAddedSuccessful,x
+754,BookingConfirmation,Hotel Booking,Windows,Php,confirmation page display,x,x
+755,BookList,Library Management,Windows,Php,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+756,BookList,Supply Chain,Windows,Php,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+757,CalculateAgeScreen,Educational,Windows,Php,Calculate age using date picker and date of birth,loggedIn,age
+758,CityNameDropdown,Hotel Booking,Windows,Php,city name dropdown,isLoggedIn,cityName:String
+759,CityNameWithState,Hotel Booking,Windows,Php,city name dropdown with state,x,x
+760,ClassTypeAndQuota,Railway Booking,Windows,Php,class type dropdown and quota type dropdown,x,x
+761,ClassTypeAndQuota,Bus Booking,Windows,Php,class type dropdown and quota type dropdown,x,x
+762,DateOfJourney,Bus Booking,Windows,Php,date of journey input,x,x
+763,DateOfJourney,Railway Booking,Windows,Php,date of journey input,x,x
+764,DisplayAgeOutput,Educational,Windows,Php,Display the age ,age,x
+765,FlightBookingConfirmed,Flight Booking,Windows,Php,"Flight booking confirmed page with details like airline name , date of journey, from city , to city ",x,x
+766,FlightClassType,Flight Booking,Windows,Php,select flight class type from dropdown,x,x
+767,FlightDisplayUI,Flight Booking,Windows,Php,"display the searched list of flights and select a flight with details like airline code, airline name, departure, arrival , number of stops , duration and price",x,x
+768,FromCityToCity,Bus Booking,Windows,Php,From city dropdown and to city dropdown select,x,x
+769,FromCityToCity,Railway Booking,Windows,Php,From city dropdown and to city dropdown select,x,x
+770,FromCityToCityDOJ,Flight Booking,Windows,Php,From city dropdown and to city dropdown and date of journey select,x,x
+771,FromDateToDate,Hotel Booking,Windows,Php,from date and to date input,x,x
+772,GetFlights,Flight Booking,Windows,Php,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+773,GetTrains,Railway Booking,Windows,Php,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+774,GSTCalculator,x,Windows,Php,gst calculate on amount or fare,amount,amount
+775,HotelListUI,Hotel Booking,Windows,Php,list of hotels with hotel select from list,x,x
+776,HotelRentCalculator,Hotel Booking,Windows,Php,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+777,HotelSearch,Hotel Booking,Windows,Php,search hotels using city name,cityName,ids:String[]
+778,LoginCaptchaScreen,x,Windows,Php,"Login using username, password and captcha",x,loggedIn
+779,LoginCheck,x,Windows,Php,check username and password validity,"username,password",isLoggedIn
+780,LoginErrorPage,x,Windows,Php,login failed error page,x,x
+781,LoginScreen,x,Windows,Php,Login using username and password,x,loggedIn
+782,LoginScreen1,x,Windows,Php,"login using username ,password and register option",x,"userRegistered,loggedIn"
+783,Logout,x,Windows,Php,logout button,paymentStatus,loggedIn
+784,NumberOfItems,Ecommerce,Windows,Php,number of items dropdown,selectedProduct,numberOfItems
+785,PassengerDetails,Railway Booking,Windows,Php,"add details of passenger with input of name , age , gender  , phone number ",x,x
+786,PassengerDetails,Bus Booking,Windows,Php,"add details of passenger with input of name , age , gender  , phone number ",x,x
+787,PaymentFailed,x,Windows,Php,payment failed page for the given amount,x,x
+788,PaymentPageUI,x,Windows,Php,"payment page with options like credit card, debit card and cash",x,x
+789,PaymentPageUI1,x,Windows,Php,"payment page with options like credit card, debit card, netbanking, upi and cash",amount,paymentStatus
+790,ProductCategory,Ecommerce,Windows,Php,product category dropdown,loggedIn,productCategorySelected
+791,ProductFareCalculator,Ecommerce,Windows,Php,"product fare calculate using product price, number of items and discount percentage","amount,numberOfItems",amount
+792,ProductList,Ecommerce,Windows,Php,display list of product search results with select a product,"loggedIn,productSeachedList","amount,selectedProduct"
+793,ProfilePage,Ecommerce,Windows,Php,"profile page with details like name,username,email,address and phone number",x,x
+794,Register,x,Windows,Php,"registration page with details like email , password and confirm password",x,userRegistered
+795,Register1,x,Windows,Php,"registration page with details like name,email,username,password and confirm password",x,userRegistered
+796,Register2,x,Windows,Php,"registration page with details like name, username,email,address,phone number,password and confirm password",x,x
+797,RoomSelector,Hotel Booking,Windows,Php,room type and number of guests dropdown ,x,x
+798,SearchBook,Library Management,Windows,Php,search box for entering book name,x,x
+799,SearchProduct,Ecommerce,Windows,Php,searching products using product name and product category,"loggedIn,productSearchTerm,productCategorySelected",productSearchedList
+800,SearchProductUI,Ecommerce,Windows,Php,search box for entering product name to search,loggedIn,productSearchTerm
+801,ThankYouPage,Ecommerce,Windows,Php,thank you page for the username,x,x
+802,TrainBookingConfirmed,Railway Booking,Windows,Php,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+803,TrainDisplayUI,Railway Booking,Windows,Php,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+804,BusBookingConfirmed,Bus Booking,Windows,Php,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+805,BusDisplayUI,Bus Booking,Windows,Php,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+806,VerificationEmailPage,Ecommerce,Windows,Php,verification email sent page,x,x
+807,VideoList,Online Video,Windows,Php,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+808,YoutubeVideoPlay,Online Video,Windows,Php,youtube video player with video id ,videoId,x
+809,AddBookUI,Library Management,Linux,Python,"add book ui using author name, book name and year",,
+810,AddBookUI,Supply Chain,Linux,Python,"add book ui using author name, book name and year",,
+811,AgeCalculate,Educational,Linux,Python,calculate age using year of birth,yearofbirth,age
+812,AgeDisplay,Educational,Linux,Python,display the calculated age,age,x
+813,AuthorAndGenre,Library Management,Linux,Python,author name dropdown and genre dropdown,x,x
+814,AuthorNameAndGenre,Supply Chain,Linux,Python,dropdown for book genre and author name,searchString,"authorName:String,genre:String"
+815,BerthAvailabilty,Railway Booking,Linux,Python,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+816,BookAddedSuccessfullyDialog,Library Management,Linux,Python,book added sucessfully dialog,bookAddedSuccessful,x
+817,BookAddedSuccessfullyDialog,Supply Chain,Linux,Python,book added sucessfully dialog,bookAddedSuccessful,x
+818,BookList,Library Management,Linux,Python,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+819,BookList,Supply Chain,Linux,Python,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+820,CityNameDropdown,Hotel Booking,Linux,Python,city name dropdown,isLoggedIn,cityName:String
+821,CityNameWithState,Hotel Booking,Linux,Python,city name dropdown with state,x,x
+822,ClassTypeAndQuota,Railway Booking,Linux,Python,class type dropdown and quota type dropdown,x,x
+823,ClassTypeAndQuota,Bus Booking,Linux,Python,class type dropdown and quota type dropdown,x,x
+824,DateOfJourney,Bus Booking,Linux,Python,date of journey input,x,x
+825,DateOfJourney,Railway Booking,Linux,Python,date of journey input,x,x
+826,DatePicker,Educational,Linux,Python,year of birth input,x,yearofbirth
+827,FromCityToCity,Bus Booking,Linux,Python,From city dropdown and to city dropdown select,x,x
+828,FromCityToCity,Railway Booking,Linux,Python,From city dropdown and to city dropdown select,x,x
+829,FromCityToCityDOJ,Flight Booking,Linux,Python,From city dropdown and to city dropdown and date of journey select,x,x
+830,FromDateToDate,Hotel Booking,Linux,Python,from date and to date input,x,x
+831,GetFlights,Flight Booking,Linux,Python,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+832,GetTrains,Railway Booking,Linux,Python,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+833,GSTCalculator,x,Linux,Python,gst calculate on amount or fare,amountV,amountV
+834,HotelList,Hotel Booking,Linux,Python,"hotels list display, select hotel to get base cost",ids,baseRentCost:Double
+835,HotelRentCalculator,Hotel Booking,Linux,Python,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+836,HotelSearch,Hotel Booking,Linux,Python,search hotels using city name,cityName,ids:String[]
+837,login,x,Linux,Python,Login using username and password,x,x
+838,loginCaptcha,x,Linux,Python,"Login page using username, password and captcha",x,loggedInV
+839,NumberOfItems,Ecommerce,Linux,Python,number of items dropdown,x,x
+840,PassengerDetails,Railway Booking,Linux,Python,"add details of passenger with input of name , age , gender  , phone number ",x,x
+841,PassengerDetails,Bus Booking,Linux,Python,"add details of passenger with input of name , age , gender  , phone number ",x,x
+842,PaymentPageUI3,x,Linux,Python,"payment page is displayed with options like credit card, debit card , netbanking, upi and cash",x,paymentStatusV
+843,ProductCategory,Ecommerce,Linux,Python,product category dropdown,x,productCategorySelectedV
+844,ProductFareCalculator,Ecommerce,Linux,Python,"product fare calculate using product price, number of items and discount percentage",x,x
+845,ProductSearch,Ecommerce,Linux,Python,search of products using product name and product category and list of products  display ,x,selectedProductV
+846,ProductSearchUI,Ecommerce,Linux,Python,search box to search product using name,x,searchTermV
+847,ThankYou,Ecommerce,Linux,Python,Thank you page with username and order again option,x,x
+848,TrainBookingConfirmed,Railway Booking,Linux,Python,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+849,TrainDisplayUI,Railway Booking,Linux,Python,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+850,BusBookingConfirmed,Bus Booking,Linux,Python,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+851,BusDisplayUI,Bus Booking,Linux,Python,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+852,VideoList,Online Video,Linux,Python,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+853,YoutubeVideoPlay,Online Video,Linux,Python,youtube video player with video id ,videoId,x
+854,AddBookUI,Library Management,MacOS,Python,"add book ui using author name, book name and year",,
+855,AddBookUI,Supply Chain,MacOS,Python,"add book ui using author name, book name and year",,
+856,AgeCalculate,Educational,MacOS,Python,calculate age using year of birth,yearofbirth,age
+857,AgeDisplay,Educational,MacOS,Python,display the calculated age,age,x
+858,AuthorAndGenre,Library Management,MacOS,Python,author name dropdown and genre dropdown,x,x
+859,AuthorNameAndGenre,Supply Chain,MacOS,Python,dropdown for book genre and author name,searchString,"authorName:String,genre:String"
+860,BerthAvailabilty,Railway Booking,MacOS,Python,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+861,BerthAvailabilty,Bus Booking,MacOS,Python,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+862,BerthAvailabilty,Bus Booking,MacOS,Python,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+863,BerthAvailabilty,Bus Booking,MacOS,Python,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+864,BookAddedSuccessfullyDialog,Library Management,MacOS,Python,book added sucessfully dialog,bookAddedSuccessful,x
+865,BookAddedSuccessfullyDialog,Supply Chain,MacOS,Python,book added sucessfully dialog,bookAddedSuccessful,x
+866,BookList,Library Management,MacOS,Python,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+867,BookList,Supply Chain,MacOS,Python,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+868,CityNameDropdown,Hotel Booking,MacOS,Python,city name dropdown,isLoggedIn,cityName:String
+869,CityNameWithState,Hotel Booking,MacOS,Python,city name dropdown with state,x,x
+870,ClassTypeAndQuota,Railway Booking,MacOS,Python,class type dropdown and quota type dropdown,x,x
+871,ClassTypeAndQuota,Bus Booking,MacOS,Python,class type dropdown and quota type dropdown,x,x
+872,DateOfJourney,Bus Booking,MacOS,Python,date of journey input,x,x
+873,DateOfJourney,Railway Booking,MacOS,Python,date of journey input,x,x
+874,DatePicker,Educational,MacOS,Python,year of birth input,x,yearofbirth
+875,FromCityToCity,Bus Booking,MacOS,Python,From city dropdown and to city dropdown select,x,x
+876,FromCityToCity,Railway Booking,MacOS,Python,From city dropdown and to city dropdown select,x,x
+877,FromCityToCityDOJ,Flight Booking,MacOS,Python,From city dropdown and to city dropdown and date of journey select,x,x
+878,FromDateToDate,Hotel Booking,MacOS,Python,from date and to date input,x,x
+879,GetFlights,Flight Booking,MacOS,Python,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+880,GetTrains,Railway Booking,MacOS,Python,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+881,GSTCalculator,x,MacOS,Python,gst calculate on amount or fare,amountV,amountV
+882,HotelList,Hotel Booking,MacOS,Python,"hotels list display, select hotel to get base cost",ids,baseRentCost:Double
+883,HotelRentCalculator,Hotel Booking,MacOS,Python,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+884,HotelSearch,Hotel Booking,MacOS,Python,search for hotels using city and state name,x,x
+885,login,x,MacOS,Python,Login using username and password,x,x
+886,loginCaptcha,x,MacOS,Python,"Login page using username, password and captcha",x,loggedInV
+887,NumberOfItems,Ecommerce,MacOS,Python,number of items dropdown,x,x
+888,PassengerDetails,Railway Booking,MacOS,Python,"add details of passenger with input of name , age , gender  , phone number ",x,x
+889,PassengerDetails,Bus Booking,MacOS,Python,"add details of passenger with input of name , age , gender  , phone number ",x,x
+890,PaymentPageUI3,x,MacOS,Python,"payment page is displayed with options like credit card, debit card , netbanking, upi and cash",x,paymentStatusV
+891,ProductCategory,Ecommerce,MacOS,Python,product category dropdown,x,productCategorySelectedV
+892,ProductFareCalculator,Ecommerce,MacOS,Python,"product fare calculate using product price, number of items and discount percentage",x,x
+893,ProductSearch,Ecommerce,MacOS,Python,search of products using product name and product category and list of products  display ,x,selectedProductV
+894,ProductSearchUI,Ecommerce,MacOS,Python,search box to search product using name,x,searchTermV
+895,ThankYou,Ecommerce,MacOS,Python,Thank you page with username and order again option,x,x
+896,TrainBookingConfirmed,Railway Booking,MacOS,Python,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+897,TrainDisplayUI,Railway Booking,MacOS,Python,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+898,BusBookingConfirmed,Bus Booking,MacOS,Python,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+899,BusDisplayUI,Bus Booking,MacOS,Python,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+900,VideoList,Online Video,MacOS,Python,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+901,YoutubeVideoPlay,Online Video,MacOS,Python,youtube video player with video id ,videoId,x
+902,AddBookUI,Library Management,Windows,Python,"add book ui using author name, book name and year",,
+903,AddBookUI,Supply Chain,Windows,Python,"add book ui using author name, book name and year",,
+904,AgeCalculate,Educational,Windows,Python,calculate age using year of birth,yearofbirth,age
+905,AgeDisplay,Educational,Windows,Python,display the calculated age,age,x
+906,AuthorAndGenre,Library Management,Windows,Python,author name dropdown and genre dropdown,x,x
+907,AuthorNameAndGenre,Supply Chain,Windows,Python,dropdown for book genre and author name,searchString,"authorName:String,genre:String"
+908,BerthAvailabilty,Railway Booking,Windows,Python,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+909,BookAddedSuccessfullyDialog,Library Management,Windows,Python,book added sucessfully dialog,bookAddedSuccessful,x
+910,BookAddedSuccessfullyDialog,Supply Chain,Windows,Python,book added sucessfully dialog,bookAddedSuccessful,x
+911,BookList,Library Management,Windows,Python,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+912,BookList,Supply Chain,Windows,Python,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+913,CityNameDropdown,Hotel Booking,Windows,Python,city name dropdown,isLoggedIn,cityName:String
+914,CityNameWithState,Hotel Booking,Windows,Python,city name dropdown with state,x,x
+915,ClassTypeAndQuota,Railway Booking,Windows,Python,class type dropdown and quota type dropdown,x,x
+916,ClassTypeAndQuota,Bus Booking,Windows,Python,class type dropdown and quota type dropdown,x,x
+917,DateOfJourney,Bus Booking,Windows,Python,date of journey input,x,x
+918,DateOfJourney,Railway Booking,Windows,Python,date of journey input,x,x
+919,DatePicker,Educational,Windows,Python,year of birth input,x,yearofbirth
+920,FromCityToCity,Bus Booking,Windows,Python,From city dropdown and to city dropdown select,x,x
+921,FromCityToCity,Railway Booking,Windows,Python,From city dropdown and to city dropdown select,x,x
+922,FromCityToCityDOJ,Flight Booking,Windows,Python,From city dropdown and to city dropdown and date of journey select,x,x
+923,FromDateToDate,Hotel Booking,Windows,Python,from date and to date input,x,x
+924,GetFlights,Flight Booking,Windows,Python,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+925,GetTrains,Railway Booking,Windows,Python,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+926,GSTCalculator,x,Windows,Python,gst calculate on amount or fare,amountV,amountV
+927,HotelList,Hotel Booking,Windows,Python,"hotels list display, select hotel to get base cost",ids,baseRentCost:Double
+928,HotelRentCalculator,Hotel Booking,Windows,Python,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+929,HotelSearch,Hotel Booking,Windows,Python,search for hotels using city and state name,x,x
+930,login,x,Windows,Python,Login using username and password,x,x
+931,loginCaptcha,x,Windows,Python,"Login page using username, password and captcha",x,loggedInV
+932,NumberOfItems,Ecommerce,Windows,Python,number of items dropdown,x,x
+933,PassengerDetails,Railway Booking,Windows,Python,"add details of passenger with input of name , age , gender  , phone number ",x,x
+934,PassengerDetails,Bus Booking,Windows,Python,"add details of passenger with input of name , age , gender  , phone number ",x,x
+935,PaymentPageUI3,x,Windows,Python,"payment page is displayed with options like credit card, debit card , netbanking, upi and cash",x,paymentStatusV
+936,ProductCategory,Ecommerce,Windows,Python,product category dropdown,x,productCategorySelectedV
+937,ProductFareCalculator,Ecommerce,Windows,Python,"product fare calculate using product price, number of items and discount percentage",x,x
+938,ProductSearch,Ecommerce,Windows,Python,search of products using product name and product category and list of products  display ,x,selectedProductV
+939,ProductSearchUI,Ecommerce,Windows,Python,search box to search product using name,x,searchTermV
+940,ThankYou,Ecommerce,Windows,Python,Thank you page with username and order again option,x,x
+941,TrainBookingConfirmed,Railway Booking,Windows,Python,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+942,TrainDisplayUI,Railway Booking,Windows,Python,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+943,BusBookingConfirmed,Bus Booking,Windows,Python,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+944,BusDisplayUI,Bus Booking,Windows,Python,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+945,VideoList,Online Video,Windows,Python,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+946,YoutubeVideoPlay,Online Video,Windows,Python,youtube video player with video id ,videoId,x
+947,AddBookUI,Library Management,Linux,PythonTKinter,"add book ui using author name, book name and year",,
+948,AddBookUI,Supply Chain,Linux,PythonTKinter,"add book ui using author name, book name and year",,
+949,AgeCalculate,Educational,Linux,PythonTKinter,calculate age using year of birth,yearofbirth,age
+950,AgeDisplay,Educational,Linux,PythonTKinter,display the calculated age,age,x
+951,AuthorAndGenre,Library Management,Linux,PythonTKinter,author name dropdown and genre dropdown,x,x
+952,AuthorNameAndGenre,Supply Chain,Linux,PythonTKinter,dropdown for book genre and author name,searchString,"authorName:String,genre:String"
+953,BerthAvailabilty,Railway Booking,Linux,PythonTKinter,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+954,BookAddedSuccessfullyDialog,Library Management,Linux,PythonTKinter,book added sucessfully dialog,bookAddedSuccessful,x
+955,BookAddedSuccessfullyDialog,Supply Chain,Linux,PythonTKinter,book added sucessfully dialog,bookAddedSuccessful,x
+956,BookList,Library Management,Linux,PythonTKinter,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+957,BookList,Supply Chain,Linux,PythonTKinter,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+958,CityNameDropdown,Hotel Booking,Linux,PythonTKinter,city name dropdown,isLoggedIn,cityName:String
+959,CityNameWithState,Hotel Booking,Linux,PythonTKinter,city name dropdown with state,x,x
+960,ClassTypeAndQuota,Railway Booking,Linux,PythonTKinter,class type dropdown and quota type dropdown,x,x
+961,ClassTypeAndQuota,Bus Booking,Linux,PythonTKinter,class type dropdown and quota type dropdown,x,x
+962,DateOfJourney,Bus Booking,Linux,PythonTKinter,date of journey input,x,x
+963,DateOfJourney,Railway Booking,Linux,PythonTKinter,date of journey input,x,x
+964,DatePicker,Educational,Linux,PythonTKinter,year of birth input,x,yearofbirth
+965,FromCityToCity,Bus Booking,Linux,PythonTKinter,From city dropdown and to city dropdown select,x,x
+966,FromCityToCity,Railway Booking,Linux,PythonTKinter,From city dropdown and to city dropdown select,x,x
+967,FromCityToCityDOJ,Flight Booking,Linux,PythonTKinter,From city dropdown and to city dropdown and date of journey select,x,x
+968,FromDateToDate,Hotel Booking,Linux,PythonTKinter,from date and to date input,x,x
+969,GetFlights,Flight Booking,Linux,PythonTKinter,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+970,GetTrains,Railway Booking,Linux,PythonTKinter,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+971,GSTCalculator,x,Linux,PythonTKinter,gst calculate on amount or fare,amountV,amountV
+972,HotelList,Hotel Booking,Linux,PythonTKinter,"hotels list display, select hotel to get base cost",ids,baseRentCost:Double
+973,HotelRentCalculator,Hotel Booking,Linux,PythonTKinter,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+974,HotelSearch,Hotel Booking,Linux,PythonTKinter,search hotels using city name,cityName,ids:String[]
+975,login,x,Linux,PythonTKinter,Login using username and password,x,x
+976,loginCaptcha,x,Linux,PythonTKinter,"Login page using username, password and captcha",x,loggedInV
+977,NumberOfItems,Ecommerce,Linux,PythonTKinter,number of items dropdown,x,x
+978,PassengerDetails,Railway Booking,Linux,PythonTKinter,"add details of passenger with input of name , age , gender  , phone number ",x,x
+979,PassengerDetails,Bus Booking,Linux,PythonTKinter,"add details of passenger with input of name , age , gender  , phone number ",x,x
+980,PaymentPageUI3,x,Linux,PythonTKinter,"payment page is displayed with options like credit card, debit card , netbanking, upi and cash",x,paymentStatusV
+981,ProductCategory,Ecommerce,Linux,PythonTKinter,product category dropdown,x,productCategorySelectedV
+982,ProductFareCalculator,Ecommerce,Linux,PythonTKinter,"product fare calculate using product price, number of items and discount percentage",x,x
+983,ProductSearch,Ecommerce,Linux,PythonTKinter,search of products using product name and product category and list of products  display ,x,selectedProductV
+984,ProductSearchUI,Ecommerce,Linux,PythonTKinter,search box to search product using name,x,searchTermV
+985,ThankYou,Ecommerce,Linux,PythonTKinter,Thank you page with username and order again option,x,x
+986,TrainBookingConfirmed,Railway Booking,Linux,PythonTKinter,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+987,TrainDisplayUI,Railway Booking,Linux,PythonTKinter,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+988,BusBookingConfirmed,Bus Booking,Linux,PythonTKinter,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+989,BusDisplayUI,Bus Booking,Linux,PythonTKinter,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+990,VideoList,Online Video,Linux,PythonTKinter,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+991,YoutubeVideoPlay,Online Video,Linux,PythonTKinter,youtube video player with video id ,videoId,x
+992,AddBookUI,Library Management,MacOS,PythonTKinter,"add book ui using author name, book name and year",,
+993,AddBookUI,Supply Chain,MacOS,PythonTKinter,"add book ui using author name, book name and year",,
+994,AgeCalculate,Educational,MacOS,PythonTKinter,calculate age using year of birth,yearofbirth,age
+995,AgeDisplay,Educational,MacOS,PythonTKinter,display the calculated age,age,x
+996,AuthorAndGenre,Library Management,MacOS,PythonTKinter,author name dropdown and genre dropdown,x,x
+997,AuthorNameAndGenre,Supply Chain,MacOS,PythonTKinter,dropdown for book genre and author name,searchString,"authorName:String,genre:String"
+998,BerthAvailabilty,Railway Booking,MacOS,PythonTKinter,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+999,BerthAvailabilty,Bus Booking,MacOS,PythonTKinter,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1000,BerthAvailabilty,Bus Booking,MacOS,PythonTKinter,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1001,BerthAvailabilty,Bus Booking,MacOS,PythonTKinter,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1002,BookAddedSuccessfullyDialog,Library Management,MacOS,PythonTKinter,book added sucessfully dialog,bookAddedSuccessful,x
+1003,BookAddedSuccessfullyDialog,Supply Chain,MacOS,PythonTKinter,book added sucessfully dialog,bookAddedSuccessful,x
+1004,BookList,Library Management,MacOS,PythonTKinter,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1005,BookList,Supply Chain,MacOS,PythonTKinter,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1006,CityNameDropdown,Hotel Booking,MacOS,PythonTKinter,city name dropdown,isLoggedIn,cityName:String
+1007,CityNameWithState,Hotel Booking,MacOS,PythonTKinter,city name dropdown with state,x,x
+1008,ClassTypeAndQuota,Railway Booking,MacOS,PythonTKinter,class type dropdown and quota type dropdown,x,x
+1009,ClassTypeAndQuota,Bus Booking,MacOS,PythonTKinter,class type dropdown and quota type dropdown,x,x
+1010,DateOfJourney,Bus Booking,MacOS,PythonTKinter,date of journey input,x,x
+1011,DateOfJourney,Railway Booking,MacOS,PythonTKinter,date of journey input,x,x
+1012,DatePicker,Educational,MacOS,PythonTKinter,year of birth input,x,yearofbirth
+1013,FromCityToCity,Bus Booking,MacOS,PythonTKinter,From city dropdown and to city dropdown select,x,x
+1014,FromCityToCity,Railway Booking,MacOS,PythonTKinter,From city dropdown and to city dropdown select,x,x
+1015,FromCityToCityDOJ,Flight Booking,MacOS,PythonTKinter,From city dropdown and to city dropdown and date of journey select,x,x
+1016,FromDateToDate,Hotel Booking,MacOS,PythonTKinter,from date and to date input,x,x
+1017,GetFlights,Flight Booking,MacOS,PythonTKinter,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+1018,GetTrains,Railway Booking,MacOS,PythonTKinter,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+1019,GSTCalculator,x,MacOS,PythonTKinter,gst calculate on amount or fare,amountV,amountV
+1020,HotelList,Hotel Booking,MacOS,PythonTKinter,"hotels list display, select hotel to get base cost",ids,baseRentCost:Double
+1021,HotelRentCalculator,Hotel Booking,MacOS,PythonTKinter,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+1022,HotelSearch,Hotel Booking,MacOS,PythonTKinter,search for hotels using city and state name,x,x
+1023,login,x,MacOS,PythonTKinter,Login using username and password,x,x
+1024,loginCaptcha,x,MacOS,PythonTKinter,"Login page using username, password and captcha",x,loggedInV
+1025,NumberOfItems,Ecommerce,MacOS,PythonTKinter,number of items dropdown,x,x
+1026,PassengerDetails,Railway Booking,MacOS,PythonTKinter,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1027,PassengerDetails,Bus Booking,MacOS,PythonTKinter,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1028,PaymentPageUI3,x,MacOS,PythonTKinter,"payment page is displayed with options like credit card, debit card , netbanking, upi and cash",x,paymentStatusV
+1029,ProductCategory,Ecommerce,MacOS,PythonTKinter,product category dropdown,x,productCategorySelectedV
+1030,ProductFareCalculator,Ecommerce,MacOS,PythonTKinter,"product fare calculate using product price, number of items and discount percentage",x,x
+1031,ProductSearch,Ecommerce,MacOS,PythonTKinter,search of products using product name and product category and list of products  display ,x,selectedProductV
+1032,ProductSearchUI,Ecommerce,MacOS,PythonTKinter,search box to search product using name,x,searchTermV
+1033,ThankYou,Ecommerce,MacOS,PythonTKinter,Thank you page with username and order again option,x,x
+1034,TrainBookingConfirmed,Railway Booking,MacOS,PythonTKinter,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1035,TrainDisplayUI,Railway Booking,MacOS,PythonTKinter,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1036,BusBookingConfirmed,Bus Booking,MacOS,PythonTKinter,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1037,BusDisplayUI,Bus Booking,MacOS,PythonTKinter,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1038,VideoList,Online Video,MacOS,PythonTKinter,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+1039,YoutubeVideoPlay,Online Video,MacOS,PythonTKinter,youtube video player with video id ,videoId,x
+1040,AddBookUI,Library Management,Windows,PythonTKinter,"add book ui using author name, book name and year",,
+1041,AddBookUI,Supply Chain,Windows,PythonTKinter,"add book ui using author name, book name and year",,
+1042,AgeCalculate,Educational,Windows,PythonTKinter,calculate age using year of birth,yearofbirth,age
+1043,AgeDisplay,Educational,Windows,PythonTKinter,display the calculated age,age,x
+1044,AuthorAndGenre,Library Management,Windows,PythonTKinter,author name dropdown and genre dropdown,x,x
+1045,AuthorNameAndGenre,Supply Chain,Windows,PythonTKinter,dropdown for book genre and author name,searchString,"authorName:String,genre:String"
+1046,BerthAvailabilty,Railway Booking,Windows,PythonTKinter,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1047,BookAddedSuccessfullyDialog,Library Management,Windows,PythonTKinter,book added sucessfully dialog,bookAddedSuccessful,x
+1048,BookAddedSuccessfullyDialog,Supply Chain,Windows,PythonTKinter,book added sucessfully dialog,bookAddedSuccessful,x
+1049,BookList,Library Management,Windows,PythonTKinter,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1050,BookList,Supply Chain,Windows,PythonTKinter,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1051,CityNameDropdown,Hotel Booking,Windows,PythonTKinter,city name dropdown,isLoggedIn,cityName:String
+1052,CityNameWithState,Hotel Booking,Windows,PythonTKinter,city name dropdown with state,x,x
+1053,ClassTypeAndQuota,Railway Booking,Windows,PythonTKinter,class type dropdown and quota type dropdown,x,x
+1054,ClassTypeAndQuota,Bus Booking,Windows,PythonTKinter,class type dropdown and quota type dropdown,x,x
+1055,DateOfJourney,Bus Booking,Windows,PythonTKinter,date of journey input,x,x
+1056,DateOfJourney,Railway Booking,Windows,PythonTKinter,date of journey input,x,x
+1057,DatePicker,Educational,Windows,PythonTKinter,year of birth input,x,yearofbirth
+1058,FromCityToCity,Bus Booking,Windows,PythonTKinter,From city dropdown and to city dropdown select,x,x
+1059,FromCityToCity,Railway Booking,Windows,PythonTKinter,From city dropdown and to city dropdown select,x,x
+1060,FromCityToCityDOJ,Flight Booking,Windows,PythonTKinter,From city dropdown and to city dropdown and date of journey select,x,x
+1061,FromDateToDate,Hotel Booking,Windows,PythonTKinter,from date and to date input,x,x
+1062,GetFlights,Flight Booking,Windows,PythonTKinter,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+1063,GetTrains,Railway Booking,Windows,PythonTKinter,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+1064,GSTCalculator,x,Windows,PythonTKinter,gst calculate on amount or fare,amountV,amountV
+1065,HotelList,Hotel Booking,Windows,PythonTKinter,"hotels list display, select hotel to get base cost",ids,baseRentCost:Double
+1066,HotelRentCalculator,Hotel Booking,Windows,PythonTKinter,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+1067,HotelSearch,Hotel Booking,Windows,PythonTKinter,search for hotels using city and state name,x,x
+1068,login,x,Windows,PythonTKinter,Login using username and password,x,x
+1069,loginCaptcha,x,Windows,PythonTKinter,"Login page using username, password and captcha",x,loggedInV
+1070,NumberOfItems,Ecommerce,Windows,PythonTKinter,number of items dropdown,x,x
+1071,PassengerDetails,Railway Booking,Windows,PythonTKinter,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1072,PassengerDetails,Bus Booking,Windows,PythonTKinter,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1073,PaymentPageUI3,x,Windows,PythonTKinter,"payment page is displayed with options like credit card, debit card , netbanking, upi and cash",x,paymentStatusV
+1074,ProductCategory,Ecommerce,Windows,PythonTKinter,product category dropdown,x,productCategorySelectedV
+1075,ProductFareCalculator,Ecommerce,Windows,PythonTKinter,"product fare calculate using product price, number of items and discount percentage",x,x
+1076,ProductSearch,Ecommerce,Windows,PythonTKinter,search of products using product name and product category and list of products  display ,x,selectedProductV
+1077,ProductSearchUI,Ecommerce,Windows,PythonTKinter,search box to search product using name,x,searchTermV
+1078,ThankYou,Ecommerce,Windows,PythonTKinter,Thank you page with username and order again option,x,x
+1079,TrainBookingConfirmed,Railway Booking,Windows,PythonTKinter,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1080,TrainDisplayUI,Railway Booking,Windows,PythonTKinter,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1081,BusBookingConfirmed,Bus Booking,Windows,PythonTKinter,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1082,BusDisplayUI,Bus Booking,Windows,PythonTKinter,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1083,VideoList,Online Video,Windows,PythonTKinter,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+1084,YoutubeVideoPlay,Online Video,Windows,PythonTKinter,youtube video player with video id ,videoId,x
+1085,AddBookUI,Library Management,Linux,React,"add book ui using author name, book name and year",x,x
+1086,AddBookUI,Supply Chain,Linux,React,"add book ui using author name, book name and year",x,x
+1087,AuthorAndGenre,Library Management,Linux,React,author name dropdown and genre dropdown,x,x
+1088,AuthorAndGenre,Supply Chain,Linux,React,author name dropdown and genre dropdown,x,x
+1089,BerthAvailabilty,Railway Booking,Linux,React,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1090,BerthAvailabilty,Bus Booking,Linux,React,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1091,BerthAvailabilty,Bus Booking,Linux,React,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1092,BerthAvailabilty,Bus Booking,Linux,React,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1093,BookAddedSuccessfullyDialog,Library Management,Linux,React,book added sucessfully dialog,bookAddedSuccessful,x
+1094,BookAddedSuccessfullyDialog,Supply Chain,Linux,React,book added sucessfully dialog,bookAddedSuccessful,x
+1095,BookingConfirmation,Hotel Booking,Linux,React,confirmation page display,x,x
+1096,BookList,Library Management,Linux,React,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1097,BookList,Supply Chain,Linux,React,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1098,CalculateAgeScreen,Educational,Linux,React,Calculate age using date picker and date of birth,loggedIn,age
+1099,CityNameDropdown,Hotel Booking,Linux,React,city name dropdown,isLoggedIn,cityName:String
+1100,CityNameWithState,Hotel Booking,Linux,React,city name dropdown with state,x,x
+1101,ClassTypeAndQuota,Railway Booking,Linux,React,class type dropdown and quota type dropdown,x,x
+1102,ClassTypeAndQuota,Bus Booking,Linux,React,class type dropdown and quota type dropdown,x,x
+1103,DateOfJourney,Bus Booking,Linux,React,date of journey input,x,x
+1104,DateOfJourney,Railway Booking,Linux,React,date of journey input,x,x
+1105,DisplayAgeOutput,Educational,Linux,React,Display the age ,age,x
+1106,FlightBookingConfirmed,Flight Booking,Linux,React,"Flight booking confirmed page with details like airline name , date of journey, from city , to city ",x,x
+1107,FlightClassType,Flight Booking,Linux,React,select flight class type from dropdown,x,x
+1108,FlightDisplayUI,Flight Booking,Linux,React,"display the searched list of flights and select a flight with details like airline code, airline name, departure, arrival , number of stops , duration and price",x,x
+1109,FromCityToCity,Bus Booking,Linux,React,From city dropdown and to city dropdown select,x,x
+1110,FromCityToCity,Railway Booking,Linux,React,From city dropdown and to city dropdown select,x,x
+1111,FromCityToCityDOJ,Flight Booking,Linux,React,From city dropdown and to city dropdown and date of journey select,x,x
+1112,FromDateToDate,Hotel Booking,Linux,React,from date and to date input,x,x
+1113,GetFlights,Flight Booking,Linux,React,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+1114,GetTrains,Railway Booking,Linux,React,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+1115,GSTCalculator,x,Linux,React,gst calculate on amount or fare,amount,amount
+1116,HotelListUI,Hotel Booking,Linux,React,list of hotels with hotel select from list,x,x
+1117,HotelRentCalculator,Hotel Booking,Linux,React,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+1118,HotelSearch,Hotel Booking,Linux,React,search for hotels using city and state name,x,x
+1119,LoginCaptchaScreen,x,Linux,React,"Login using username, password and captcha",x,loggedIn
+1120,LoginCheck,x,Linux,React,check username and password validity,"username,password",isLoggedIn
+1121,LoginErrorPage,x,Linux,React,login failed error page,x,x
+1122,LoginScreen,x,Linux,React,Login using username and password,x,loggedIn
+1123,LoginScreen1,x,Linux,React,"login using username ,password and register option",x,"userRegistered,loggedIn"
+1124,Logout,x,Linux,React,logout button,paymentStatus,loggedIn
+1125,NumberOfItems,Ecommerce,Linux,React,number of items dropdown,selectedProduct,numberOfItems
+1126,PassengerDetails,Railway Booking,Linux,React,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1127,PassengerDetails,Bus Booking,Linux,React,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1128,PaymentFailed,x,Linux,React,payment failed page for the given amount,x,x
+1129,PaymentPageUI,x,Linux,React,"payment page with options like credit card, debit card and cash",x,x
+1130,PaymentPageUI1,x,Linux,React,"payment page with options like credit card, debit card, netbanking, upi and cash",amount,paymentStatus
+1131,ProductCategory,Ecommerce,Linux,React,product category dropdown,loggedIn,productCategorySelected
+1132,ProductFareCalculator,Ecommerce,Linux,React,"product fare calculate using product price, number of items and discount percentage","amount,numberOfItems",amount
+1133,ProductList,Ecommerce,Linux,React,display list of product search results with select a product,"loggedIn,productSeachedList","amount,selectedProduct"
+1134,ProfilePage,Ecommerce,Linux,React,"profile page with details like name,username,email,address and phone number",x,x
+1135,Register,x,Linux,React,"registration page with details like email , password and confirm password",x,userRegistered
+1136,Register1,x,Linux,React,"registration page with details like name,email,username,password and confirm password",x,userRegistered
+1137,Register2,x,Linux,React,"registration page with details like name, username,email,address,phone number,password and confirm password",x,x
+1138,RoomSelector,Hotel Booking,Linux,React,room type and number of guests dropdown ,x,x
+1139,SearchBook,Library Management,Linux,React,search box for entering book name,x,x
+1140,SearchProduct,Ecommerce,Linux,React,searching products using product name and product category,"loggedIn,productSearchTerm,productCategorySelected",productSearchedList
+1141,SearchProductUI,Ecommerce,Linux,React,search box for entering product name to search,loggedIn,productSearchTerm
+1142,ThankYouPage,Ecommerce,Linux,React,thank you page for the username,x,x
+1143,TrainBookingConfirmed,Railway Booking,Linux,React,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1144,TrainDisplayUI,Railway Booking,Linux,React,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1145,BusBookingConfirmed,Bus Booking,Linux,React,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1146,BusDisplayUI,Bus Booking,Linux,React,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1147,VerificationEmailPage,Ecommerce,Linux,React,verification email sent page,x,x
+1148,VideoList,Online Video,Linux,React,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+1149,YoutubeVideoPlay,Online Video,Linux,React,youtube video player with video id ,videoId,x
+1150,AddBookUI,Library Management,MacOS,React,"add book ui using author name, book name and year",x,x
+1151,AddBookUI,Supply Chain,MacOS,React,"add book ui using author name, book name and year",addBook,bookAddedSuccessful:Boolean
+1152,AuthorAndGenre,Library Management,MacOS,React,author name dropdown and genre dropdown,x,x
+1153,AuthorAndGenre,Supply Chain,MacOS,React,author name dropdown and genre dropdown,x,x
+1154,BerthAvailabilty,Railway Booking,MacOS,React,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1155,BookAddedSuccessfullyDialog,Library Management,MacOS,React,book added sucessfully dialog,bookAddedSuccessful,x
+1156,BookAddedSuccessfullyDialog,Supply Chain,MacOS,React,book added sucessfully dialog,bookAddedSuccessful,x
+1157,BookingConfirmation,Hotel Booking,MacOS,React,confirmation page display,x,x
+1158,BookList,Library Management,MacOS,React,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1159,BookList,Supply Chain,MacOS,React,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1160,CalculateAgeScreen,Educational,MacOS,React,Calculate age using date picker and date of birth,loggedIn,age
+1161,CityNameDropdown,Hotel Booking,MacOS,React,city name dropdown,isLoggedIn,cityName:String
+1162,CityNameWithState,Hotel Booking,MacOS,React,city name dropdown with state,x,x
+1163,ClassTypeAndQuota,Railway Booking,MacOS,React,class type dropdown and quota type dropdown,x,x
+1164,ClassTypeAndQuota,Bus Booking,MacOS,React,class type dropdown and quota type dropdown,x,x
+1165,DateOfJourney,Bus Booking,MacOS,React,date of journey input,x,x
+1166,DateOfJourney,Railway Booking,MacOS,React,date of journey input,x,x
+1167,DisplayAgeOutput,Educational,MacOS,React,Display the age ,age,x
+1168,FlightBookingConfirmed,Flight Booking,MacOS,React,"Flight booking confirmed page with details like airline name , date of journey, from city , to city ",x,x
+1169,FlightClassType,Flight Booking,MacOS,React,select flight class type from dropdown,x,x
+1170,FlightDisplayUI,Flight Booking,MacOS,React,"display the searched list of flights and select a flight with details like airline code, airline name, departure, arrival , number of stops , duration and price",x,x
+1171,FromCityToCity,Bus Booking,MacOS,React,From city dropdown and to city dropdown select,x,x
+1172,FromCityToCity,Railway Booking,MacOS,React,From city dropdown and to city dropdown select,x,x
+1173,FromCityToCityDOJ,Flight Booking,MacOS,React,From city dropdown and to city dropdown and date of journey select,x,x
+1174,FromDateToDate,Hotel Booking,MacOS,React,from date and to date input,x,x
+1175,GetFlights,Flight Booking,MacOS,React,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+1176,GetTrains,Railway Booking,MacOS,React,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+1177,GSTCalculator,x,MacOS,React,gst calculate on amount or fare,amount,amount
+1178,HotelListUI,Hotel Booking,MacOS,React,list of hotels with hotel select from list,x,x
+1179,HotelRentCalculator,Hotel Booking,MacOS,React,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+1180,HotelSearch,Hotel Booking,MacOS,React,search for hotels using city and state name,x,x
+1181,LoginCaptchaScreen,x,MacOS,React,"Login using username, password and captcha",x,loggedIn
+1182,LoginCheck,x,MacOS,React,check username and password validity,"username,password",isLoggedIn
+1183,LoginErrorPage,x,MacOS,React,login failed error page,x,x
+1184,LoginScreen,x,MacOS,React,Login using username and password,x,loggedIn
+1185,LoginScreen1,x,MacOS,React,"login using username ,password and register option",x,"userRegistered,loggedIn"
+1186,Logout,x,MacOS,React,logout button,paymentStatus,loggedIn
+1187,NumberOfItems,Ecommerce,MacOS,React,number of items dropdown,selectedProduct,numberOfItems
+1188,PassengerDetails,Railway Booking,MacOS,React,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1189,PassengerDetails,Bus Booking,MacOS,React,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1190,PaymentFailed,x,MacOS,React,payment failed page for the given amount,x,x
+1191,PaymentPageUI,x,MacOS,React,"payment page with options like credit card, debit card and cash",x,x
+1192,PaymentPageUI1,x,MacOS,React,"payment page with options like credit card, debit card, netbanking, upi and cash",amount,paymentStatus
+1193,ProductCategory,Ecommerce,MacOS,React,product category dropdown,loggedIn,productCategorySelected
+1194,ProductFareCalculator,Ecommerce,MacOS,React,"product fare calculate using product price, number of items and discount percentage","amount,numberOfItems",amount
+1195,ProductList,Ecommerce,MacOS,React,display list of product search results with select a product,"loggedIn,productSeachedList","amount,selectedProduct"
+1196,ProfilePage,Ecommerce,MacOS,React,"profile page with details like name,username,email,address and phone number",x,x
+1197,Register,x,MacOS,React,"registration page with details like email , password and confirm password",x,userRegistered
+1198,Register1,x,MacOS,React,"registration page with details like name,email,username,password and confirm password",x,userRegistered
+1199,Register2,x,MacOS,React,"registration page with details like name, username,email,address,phone number,password and confirm password",x,x
+1200,RoomSelector,Hotel Booking,MacOS,React,room type and number of guests dropdown ,x,x
+1201,SearchBook,Library Management,MacOS,React,search box for entering book name,x,x
+1202,SearchProduct,Ecommerce,MacOS,React,searching products using product name and product category,"loggedIn,productSearchTerm,productCategorySelected",productSearchedList
+1203,SearchProductUI,Ecommerce,MacOS,React,search box for entering product name to search,loggedIn,productSearchTerm
+1204,ThankYouPage,Ecommerce,MacOS,React,thank you page for the username,x,x
+1205,TrainBookingConfirmed,Railway Booking,MacOS,React,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1206,TrainDisplayUI,Railway Booking,MacOS,React,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1207,BusBookingConfirmed,Bus Booking,MacOS,React,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1208,BusDisplayUI,Bus Booking,MacOS,React,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1209,VerificationEmailPage,Ecommerce,MacOS,React,verification email sent page,x,x
+1210,VideoList,Online Video,MacOS,React,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+1211,YoutubeVideoPlay,Online Video,MacOS,React,youtube video player with video id ,videoId,x
+1212,AddBookUI,Library Management,Windows,React,"add book ui using author name, book name and year",x,x
+1213,AddBookUI,Supply Chain,Windows,React,"add book ui using author name, book name and year",x,x
+1214,AuthorAndGenre,Library Management,Windows,React,author name dropdown and genre dropdown,x,x
+1215,AuthorAndGenre,Supply Chain,Windows,React,author name dropdown and genre dropdown,x,x
+1216,BerthAvailabilty,Railway Booking,Windows,React,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1217,BookAddedSuccessfullyDialog,Library Management,Windows,React,book added sucessfully dialog,bookAddedSuccessful,x
+1218,BookAddedSuccessfullyDialog,Supply Chain,Windows,React,book added sucessfully dialog,bookAddedSuccessful,x
+1219,BookingConfirmation,Hotel Booking,Windows,React,confirmation page display,x,x
+1220,BookList,Library Management,Windows,React,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1221,BookList,Supply Chain,Windows,React,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1222,CalculateAgeScreen,Educational,Windows,React,Calculate age using date picker and date of birth,loggedIn,age
+1223,CityNameDropdown,Hotel Booking,Windows,React,city name dropdown,isLoggedIn,cityName:String
+1224,CityNameWithState,Hotel Booking,Windows,React,city name dropdown with state,x,x
+1225,ClassTypeAndQuota,Railway Booking,Windows,React,class type dropdown and quota type dropdown,x,x
+1226,ClassTypeAndQuota,Bus Booking,Windows,React,class type dropdown and quota type dropdown,x,x
+1227,DateOfJourney,Bus Booking,Windows,React,date of journey input,x,x
+1228,DateOfJourney,Railway Booking,Windows,React,date of journey input,x,x
+1229,DisplayAgeOutput,Educational,Windows,React,Display the age ,age,x
+1230,FlightBookingConfirmed,Flight Booking,Windows,React,"Flight booking confirmed page with details like airline name , date of journey, from city , to city ",x,x
+1231,FlightClassType,Flight Booking,Windows,React,select flight class type from dropdown,x,x
+1232,FlightDisplayUI,Flight Booking,Windows,React,"display the searched list of flights and select a flight with details like airline code, airline name, departure, arrival , number of stops , duration and price",x,x
+1233,FromCityToCity,Bus Booking,Windows,React,From city dropdown and to city dropdown select,x,x
+1234,FromCityToCity,Railway Booking,Windows,React,From city dropdown and to city dropdown select,x,x
+1235,FromCityToCityDOJ,Flight Booking,Windows,React,From city dropdown and to city dropdown and date of journey select,x,x
+1236,FromDateToDate,Hotel Booking,Windows,React,from date and to date input,x,x
+1237,GetFlights,Flight Booking,Windows,React,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+1238,GetTrains,Railway Booking,Windows,React,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+1239,GSTCalculator,x,Windows,React,gst calculate on amount or fare,amount,amount
+1240,HotelListUI,Hotel Booking,Windows,React,list of hotels with hotel select from list,x,x
+1241,HotelRentCalculator,Hotel Booking,Windows,React,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+1242,HotelSearch,Hotel Booking,Windows,React,search hotels using city name,cityName,ids:String[]
+1243,LoginCaptchaScreen,x,Windows,React,"Login using username, password and captcha",x,loggedIn
+1244,LoginCheck,x,Windows,React,check username and password validity,"username,password",isLoggedIn
+1245,LoginErrorPage,x,Windows,React,login failed error page,x,x
+1246,LoginScreen,x,Windows,React,Login using username and password,x,loggedIn
+1247,LoginScreen1,x,Windows,React,"login using username ,password and register option",x,"userRegistered,loggedIn"
+1248,Logout,x,Windows,React,logout button,paymentStatus,loggedIn
+1249,NumberOfItems,Ecommerce,Windows,React,number of items dropdown,selectedProduct,numberOfItems
+1250,PassengerDetails,Railway Booking,Windows,React,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1251,PassengerDetails,Bus Booking,Windows,React,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1252,PaymentFailed,x,Windows,React,payment failed page for the given amount,x,x
+1253,PaymentPageUI,x,Windows,React,"payment page with options like credit card, debit card and cash",x,x
+1254,PaymentPageUI1,x,Windows,React,"payment page with options like credit card, debit card, netbanking, upi and cash",amount,paymentStatus
+1255,ProductCategory,Ecommerce,Windows,React,product category dropdown,loggedIn,productCategorySelected
+1256,ProductFareCalculator,Ecommerce,Windows,React,"product fare calculate using product price, number of items and discount percentage","amount,numberOfItems",amount
+1257,ProductList,Ecommerce,Windows,React,display list of product search results with select a product,"loggedIn,productSeachedList","amount,selectedProduct"
+1258,ProfilePage,Ecommerce,Windows,React,"profile page with details like name,username,email,address and phone number",x,x
+1259,Register,x,Windows,React,"registration page with details like email , password and confirm password",x,userRegistered
+1260,Register1,x,Windows,React,"registration page with details like name,email,username,password and confirm password",x,userRegistered
+1261,Register2,x,Windows,React,"registration page with details like name, username,email,address,phone number,password and confirm password",x,x
+1262,RoomSelector,Hotel Booking,Windows,React,room type and number of guests dropdown ,x,x
+1263,SearchBook,Library Management,Windows,React,search box for entering book name,x,x
+1264,SearchProduct,Ecommerce,Windows,React,searching products using product name and product category,"loggedIn,productSearchTerm,productCategorySelected",productSearchedList
+1265,SearchProductUI,Ecommerce,Windows,React,search box for entering product name to search,loggedIn,productSearchTerm
+1266,ThankYouPage,Ecommerce,Windows,React,thank you page for the username,x,x
+1267,TrainBookingConfirmed,Railway Booking,Windows,React,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1268,TrainDisplayUI,Railway Booking,Windows,React,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1269,BusBookingConfirmed,Bus Booking,Windows,React,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1270,BusDisplayUI,Bus Booking,Windows,React,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1271,VerificationEmailPage,Ecommerce,Windows,React,verification email sent page,x,x
+1272,VideoList,Online Video,Windows,React,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+1273,YoutubeVideoPlay,Online Video,Windows,React,youtube video player with video id ,videoId,x
+1274,AddBookUI,Library Management,Linux,Jsp,"add book ui using author name, book name and year",x,x
+1275,AddBookUI,Supply Chain,Linux,Jsp,"add book ui using author name, book name and year",x,x
+1276,AuthorAndGenre,Library Management,Linux,Jsp,author name dropdown and genre dropdown,x,x
+1277,AuthorAndGenre,Supply Chain,Linux,Jsp,author name dropdown and genre dropdown,x,x
+1278,BerthAvailabilty,Railway Booking,Linux,Jsp,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1279,BerthAvailabilty,Bus Booking,Linux,Jsp,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1280,BerthAvailabilty,Bus Booking,Linux,Jsp,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1281,BerthAvailabilty,Bus Booking,Linux,Jsp,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1282,BookAddedSuccessfullyDialog,Library Management,Linux,Jsp,book added sucessfully dialog,bookAddedSuccessful,x
+1283,BookAddedSuccessfullyDialog,Supply Chain,Linux,Jsp,book added sucessfully dialog,bookAddedSuccessful,x
+1284,BookingConfirmation,Hotel Booking,Linux,Jsp,confirmation page display,x,x
+1285,BookList,Library Management,Linux,Jsp,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1286,BookList,Supply Chain,Linux,Jsp,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1287,CalculateAgeScreen,Educational,Linux,Jsp,Calculate age using date picker and date of birth,loggedIn,age
+1288,CityNameDropdown,Hotel Booking,Linux,Jsp,city name dropdown,isLoggedIn,cityName:String
+1289,CityNameWithState,Hotel Booking,Linux,Jsp,city name dropdown with state,x,x
+1290,ClassTypeAndQuota,Railway Booking,Linux,Jsp,class type dropdown and quota type dropdown,x,x
+1291,ClassTypeAndQuota,Bus Booking,Linux,Jsp,class type dropdown and quota type dropdown,x,x
+1292,DateOfJourney,Bus Booking,Linux,Jsp,date of journey input,x,x
+1293,DateOfJourney,Railway Booking,Linux,Jsp,date of journey input,x,x
+1294,DisplayAgeOutput,Educational,Linux,Jsp,Display the age ,age,x
+1295,FlightBookingConfirmed,Flight Booking,Linux,Jsp,"Flight booking confirmed page with details like airline name , date of journey, from city , to city ",x,x
+1296,FlightClassType,Flight Booking,Linux,Jsp,select flight class type from dropdown,x,x
+1297,FlightDisplayUI,Flight Booking,Linux,Jsp,"display the searched list of flights and select a flight with details like airline code, airline name, departure, arrival , number of stops , duration and price",x,x
+1298,FromCityToCity,Bus Booking,Linux,Jsp,From city dropdown and to city dropdown select,x,x
+1299,FromCityToCity,Railway Booking,Linux,Jsp,From city dropdown and to city dropdown select,x,x
+1300,FromCityToCityDOJ,Flight Booking,Linux,Jsp,From city dropdown and to city dropdown and date of journey select,x,x
+1301,FromDateToDate,Hotel Booking,Linux,Jsp,from date and to date input,x,x
+1302,GetFlights,Flight Booking,Linux,Jsp,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+1303,GetTrains,Railway Booking,Linux,Jsp,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+1304,GSTCalculator,x,Linux,Jsp,gst calculate on amount or fare,amount,amount
+1305,HotelListUI,Hotel Booking,Linux,Jsp,list of hotels with hotel select from list,x,x
+1306,HotelRentCalculator,Hotel Booking,Linux,Jsp,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+1307,HotelSearch,Hotel Booking,Linux,Jsp,search for hotels using city and state name,x,x
+1308,LoginCaptchaScreen,x,Linux,Jsp,"Login using username, password and captcha",x,loggedIn
+1309,LoginCheck,x,Linux,Jsp,check username and password validity,"username,password",isLoggedIn
+1310,LoginErrorPage,x,Linux,Jsp,login failed error page,x,x
+1311,LoginScreen,x,Linux,Jsp,Login using username and password,x,loggedIn
+1312,LoginScreen1,x,Linux,Jsp,"login using username ,password and register option",x,"userRegistered,loggedIn"
+1313,Logout,x,Linux,Jsp,logout button,paymentStatus,loggedIn
+1314,NumberOfItems,Ecommerce,Linux,Jsp,number of items dropdown,selectedProduct,numberOfItems
+1315,PassengerDetails,Railway Booking,Linux,Jsp,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1316,PassengerDetails,Bus Booking,Linux,Jsp,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1317,PaymentFailed,x,Linux,Jsp,payment failed page for the given amount,x,x
+1318,PaymentPageUI,x,Linux,Jsp,"payment page with options like credit card, debit card and cash",x,x
+1319,PaymentPageUI1,x,Linux,Jsp,"payment page with options like credit card, debit card, netbanking, upi and cash",amount,paymentStatus
+1320,ProductCategory,Ecommerce,Linux,Jsp,product category dropdown,loggedIn,productCategorySelected
+1321,ProductFareCalculator,Ecommerce,Linux,Jsp,"product fare calculate using product price, number of items and discount percentage","amount,numberOfItems",amount
+1322,ProductList,Ecommerce,Linux,Jsp,display list of product search results with select a product,"loggedIn,productSeachedList","amount,selectedProduct"
+1323,ProfilePage,Ecommerce,Linux,Jsp,"profile page with details like name,username,email,address and phone number",x,x
+1324,Register,x,Linux,Jsp,"registration page with details like email , password and confirm password",x,userRegistered
+1325,Register1,x,Linux,Jsp,"registration page with details like name,email,username,password and confirm password",x,userRegistered
+1326,Register2,x,Linux,Jsp,"registration page with details like name, username,email,address,phone number,password and confirm password",x,x
+1327,RoomSelector,Hotel Booking,Linux,Jsp,room type and number of guests dropdown ,x,x
+1328,SearchBook,Library Management,Linux,Jsp,search box for entering book name,x,x
+1329,SearchProduct,Ecommerce,Linux,Jsp,searching products using product name and product category,"loggedIn,productSearchTerm,productCategorySelected",productSearchedList
+1330,SearchProductUI,Ecommerce,Linux,Jsp,search box for entering product name to search,loggedIn,productSearchTerm
+1331,ThankYouPage,Ecommerce,Linux,Jsp,thank you page for the username,x,x
+1332,TrainBookingConfirmed,Railway Booking,Linux,Jsp,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1333,TrainDisplayUI,Railway Booking,Linux,Jsp,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1334,BusBookingConfirmed,Bus Booking,Linux,Jsp,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1335,BusDisplayUI,Bus Booking,Linux,Jsp,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1336,VerificationEmailPage,Ecommerce,Linux,Jsp,verification email sent page,x,x
+1337,VideoList,Online Video,Linux,Jsp,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+1338,YoutubeVideoPlay,Online Video,Linux,Jsp,youtube video player with video id ,videoId,x
+1339,AddBookUI,Library Management,MacOS,Jsp,"add book ui using author name, book name and year",x,x
+1340,AddBookUI,Supply Chain,MacOS,Jsp,"add book ui using author name, book name and year",addBook,bookAddedSuccessful:Boolean
+1341,AuthorAndGenre,Library Management,MacOS,Jsp,author name dropdown and genre dropdown,x,x
+1342,AuthorAndGenre,Supply Chain,MacOS,Jsp,author name dropdown and genre dropdown,x,x
+1343,BerthAvailabilty,Railway Booking,MacOS,Jsp,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1344,BookAddedSuccessfullyDialog,Library Management,MacOS,Jsp,book added sucessfully dialog,bookAddedSuccessful,x
+1345,BookAddedSuccessfullyDialog,Supply Chain,MacOS,Jsp,book added sucessfully dialog,bookAddedSuccessful,x
+1346,BookingConfirmation,Hotel Booking,MacOS,Jsp,confirmation page display,x,x
+1347,BookList,Library Management,MacOS,Jsp,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1348,BookList,Supply Chain,MacOS,Jsp,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1349,CalculateAgeScreen,Educational,MacOS,Jsp,Calculate age using date picker and date of birth,loggedIn,age
+1350,CityNameDropdown,Hotel Booking,MacOS,Jsp,city name dropdown,isLoggedIn,cityName:String
+1351,CityNameWithState,Hotel Booking,MacOS,Jsp,city name dropdown with state,x,x
+1352,ClassTypeAndQuota,Railway Booking,MacOS,Jsp,class type dropdown and quota type dropdown,x,x
+1353,ClassTypeAndQuota,Bus Booking,MacOS,Jsp,class type dropdown and quota type dropdown,x,x
+1354,DateOfJourney,Bus Booking,MacOS,Jsp,date of journey input,x,x
+1355,DateOfJourney,Railway Booking,MacOS,Jsp,date of journey input,x,x
+1356,DisplayAgeOutput,Educational,MacOS,Jsp,Display the age ,age,x
+1357,FlightBookingConfirmed,Flight Booking,MacOS,Jsp,"Flight booking confirmed page with details like airline name , date of journey, from city , to city ",x,x
+1358,FlightClassType,Flight Booking,MacOS,Jsp,select flight class type from dropdown,x,x
+1359,FlightDisplayUI,Flight Booking,MacOS,Jsp,"display the searched list of flights and select a flight with details like airline code, airline name, departure, arrival , number of stops , duration and price",x,x
+1360,FromCityToCity,Bus Booking,MacOS,Jsp,From city dropdown and to city dropdown select,x,x
+1361,FromCityToCity,Railway Booking,MacOS,Jsp,From city dropdown and to city dropdown select,x,x
+1362,FromCityToCityDOJ,Flight Booking,MacOS,Jsp,From city dropdown and to city dropdown and date of journey select,x,x
+1363,FromDateToDate,Hotel Booking,MacOS,Jsp,from date and to date input,x,x
+1364,GetFlights,Flight Booking,MacOS,Jsp,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+1365,GetTrains,Railway Booking,MacOS,Jsp,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+1366,GSTCalculator,x,MacOS,Jsp,gst calculate on amount or fare,amount,amount
+1367,HotelListUI,Hotel Booking,MacOS,Jsp,list of hotels with hotel select from list,x,x
+1368,HotelRentCalculator,Hotel Booking,MacOS,Jsp,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+1369,HotelSearch,Hotel Booking,MacOS,Jsp,search for hotels using city and state name,x,x
+1370,LoginCaptchaScreen,x,MacOS,Jsp,"Login using username, password and captcha",x,loggedIn
+1371,LoginCheck,x,MacOS,Jsp,check username and password validity,"username,password",isLoggedIn
+1372,LoginErrorPage,x,MacOS,Jsp,login failed error page,x,x
+1373,LoginScreen,x,MacOS,Jsp,Login using username and password,x,loggedIn
+1374,LoginScreen1,x,MacOS,Jsp,"login using username ,password and register option",x,"userRegistered,loggedIn"
+1375,Logout,x,MacOS,Jsp,logout button,paymentStatus,loggedIn
+1376,NumberOfItems,Ecommerce,MacOS,Jsp,number of items dropdown,selectedProduct,numberOfItems
+1377,PassengerDetails,Railway Booking,MacOS,Jsp,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1378,PassengerDetails,Bus Booking,MacOS,Jsp,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1379,PaymentFailed,x,MacOS,Jsp,payment failed page for the given amount,x,x
+1380,PaymentPageUI,x,MacOS,Jsp,"payment page with options like credit card, debit card and cash",x,x
+1381,PaymentPageUI1,x,MacOS,Jsp,"payment page with options like credit card, debit card, netbanking, upi and cash",amount,paymentStatus
+1382,ProductCategory,Ecommerce,MacOS,Jsp,product category dropdown,loggedIn,productCategorySelected
+1383,ProductFareCalculator,Ecommerce,MacOS,Jsp,"product fare calculate using product price, number of items and discount percentage","amount,numberOfItems",amount
+1384,ProductList,Ecommerce,MacOS,Jsp,display list of product search results with select a product,"loggedIn,productSeachedList","amount,selectedProduct"
+1385,ProfilePage,Ecommerce,MacOS,Jsp,"profile page with details like name,username,email,address and phone number",x,x
+1386,Register,x,MacOS,Jsp,"registration page with details like email , password and confirm password",x,userRegistered
+1387,Register1,x,MacOS,Jsp,"registration page with details like name,email,username,password and confirm password",x,userRegistered
+1388,Register2,x,MacOS,Jsp,"registration page with details like name, username,email,address,phone number,password and confirm password",x,x
+1389,RoomSelector,Hotel Booking,MacOS,Jsp,room type and number of guests dropdown ,x,x
+1390,SearchBook,Library Management,MacOS,Jsp,search box for entering book name,x,x
+1391,SearchProduct,Ecommerce,MacOS,Jsp,searching products using product name and product category,"loggedIn,productSearchTerm,productCategorySelected",productSearchedList
+1392,SearchProductUI,Ecommerce,MacOS,Jsp,search box for entering product name to search,loggedIn,productSearchTerm
+1393,ThankYouPage,Ecommerce,MacOS,Jsp,thank you page for the username,x,x
+1394,TrainBookingConfirmed,Railway Booking,MacOS,Jsp,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1395,TrainDisplayUI,Railway Booking,MacOS,Jsp,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1396,BusBookingConfirmed,Bus Booking,MacOS,Jsp,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1397,BusDisplayUI,Bus Booking,MacOS,Jsp,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1398,VerificationEmailPage,Ecommerce,MacOS,Jsp,verification email sent page,x,x
+1399,VideoList,Online Video,MacOS,Jsp,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+1400,YoutubeVideoPlay,Online Video,MacOS,Jsp,youtube video player with video id ,videoId,x
+1401,AddBookUI,Library Management,Windows,Jsp,"add book ui using author name, book name and year",x,x
+1402,AddBookUI,Supply Chain,Windows,Jsp,"add book ui using author name, book name and year",x,x
+1403,AuthorAndGenre,Library Management,Windows,Jsp,author name dropdown and genre dropdown,x,x
+1404,AuthorAndGenre,Supply Chain,Windows,Jsp,author name dropdown and genre dropdown,x,x
+1405,BerthAvailabilty,Railway Booking,Windows,Jsp,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1406,BookAddedSuccessfullyDialog,Library Management,Windows,Jsp,book added sucessfully dialog,bookAddedSuccessful,x
+1407,BookAddedSuccessfullyDialog,Supply Chain,Windows,Jsp,book added sucessfully dialog,bookAddedSuccessful,x
+1408,BookingConfirmation,Hotel Booking,Windows,Jsp,confirmation page display,x,x
+1409,BookList,Library Management,Windows,Jsp,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1410,BookList,Supply Chain,Windows,Jsp,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1411,CalculateAgeScreen,Educational,Windows,Jsp,Calculate age using date picker and date of birth,loggedIn,age
+1412,CityNameDropdown,Hotel Booking,Windows,Jsp,city name dropdown,isLoggedIn,cityName:String
+1413,CityNameWithState,Hotel Booking,Windows,Jsp,city name dropdown with state,x,x
+1414,ClassTypeAndQuota,Railway Booking,Windows,Jsp,class type dropdown and quota type dropdown,x,x
+1415,ClassTypeAndQuota,Bus Booking,Windows,Jsp,class type dropdown and quota type dropdown,x,x
+1416,DateOfJourney,Bus Booking,Windows,Jsp,date of journey input,x,x
+1417,DateOfJourney,Railway Booking,Windows,Jsp,date of journey input,x,x
+1418,DisplayAgeOutput,Educational,Windows,Jsp,Display the age ,age,x
+1419,FlightBookingConfirmed,Flight Booking,Windows,Jsp,"Flight booking confirmed page with details like airline name , date of journey, from city , to city ",x,x
+1420,FlightClassType,Flight Booking,Windows,Jsp,select flight class type from dropdown,x,x
+1421,FlightDisplayUI,Flight Booking,Windows,Jsp,"display the searched list of flights and select a flight with details like airline code, airline name, departure, arrival , number of stops , duration and price",x,x
+1422,FromCityToCity,Bus Booking,Windows,Jsp,From city dropdown and to city dropdown select,x,x
+1423,FromCityToCity,Railway Booking,Windows,Jsp,From city dropdown and to city dropdown select,x,x
+1424,FromCityToCityDOJ,Flight Booking,Windows,Jsp,From city dropdown and to city dropdown and date of journey select,x,x
+1425,FromDateToDate,Hotel Booking,Windows,Jsp,from date and to date input,x,x
+1426,GetFlights,Flight Booking,Windows,Jsp,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+1427,GetTrains,Railway Booking,Windows,Jsp,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+1428,GSTCalculator,x,Windows,Jsp,gst calculate on amount or fare,amount,amount
+1429,HotelListUI,Hotel Booking,Windows,Jsp,list of hotels with hotel select from list,x,x
+1430,HotelRentCalculator,Hotel Booking,Windows,Jsp,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+1431,HotelSearch,Hotel Booking,Windows,Jsp,search hotels using city name,cityName,ids:String[]
+1432,LoginCaptchaScreen,x,Windows,Jsp,"Login using username, password and captcha",x,loggedIn
+1433,LoginCheck,x,Windows,Jsp,check username and password validity,"username,password",isLoggedIn
+1434,LoginErrorPage,x,Windows,Jsp,login failed error page,x,x
+1435,LoginScreen,x,Windows,Jsp,Login using username and password,x,loggedIn
+1436,LoginScreen1,x,Windows,Jsp,"login using username ,password and register option",x,"userRegistered,loggedIn"
+1437,Logout,x,Windows,Jsp,logout button,paymentStatus,loggedIn
+1438,NumberOfItems,Ecommerce,Windows,Jsp,number of items dropdown,selectedProduct,numberOfItems
+1439,PassengerDetails,Railway Booking,Windows,Jsp,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1440,PassengerDetails,Bus Booking,Windows,Jsp,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1441,PaymentFailed,x,Windows,Jsp,payment failed page for the given amount,x,x
+1442,PaymentPageUI,x,Windows,Jsp,"payment page with options like credit card, debit card and cash",x,x
+1443,PaymentPageUI1,x,Windows,Jsp,"payment page with options like credit card, debit card, netbanking, upi and cash",amount,paymentStatus
+1444,ProductCategory,Ecommerce,Windows,Jsp,product category dropdown,loggedIn,productCategorySelected
+1445,ProductFareCalculator,Ecommerce,Windows,Jsp,"product fare calculate using product price, number of items and discount percentage","amount,numberOfItems",amount
+1446,ProductList,Ecommerce,Windows,Jsp,display list of product search results with select a product,"loggedIn,productSeachedList","amount,selectedProduct"
+1447,ProfilePage,Ecommerce,Windows,Jsp,"profile page with details like name,username,email,address and phone number",x,x
+1448,Register,x,Windows,Jsp,"registration page with details like email , password and confirm password",x,userRegistered
+1449,Register1,x,Windows,Jsp,"registration page with details like name,email,username,password and confirm password",x,userRegistered
+1450,Register2,x,Windows,Jsp,"registration page with details like name, username,email,address,phone number,password and confirm password",x,x
+1451,RoomSelector,Hotel Booking,Windows,Jsp,room type and number of guests dropdown ,x,x
+1452,SearchBook,Library Management,Windows,Jsp,search box for entering book name,x,x
+1453,SearchProduct,Ecommerce,Windows,Jsp,searching products using product name and product category,"loggedIn,productSearchTerm,productCategorySelected",productSearchedList
+1454,SearchProductUI,Ecommerce,Windows,Jsp,search box for entering product name to search,loggedIn,productSearchTerm
+1455,ThankYouPage,Ecommerce,Windows,Jsp,thank you page for the username,x,x
+1456,TrainBookingConfirmed,Railway Booking,Windows,Jsp,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1457,TrainDisplayUI,Railway Booking,Windows,Jsp,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1458,BusBookingConfirmed,Bus Booking,Windows,Jsp,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1459,BusDisplayUI,Bus Booking,Windows,Jsp,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1460,VerificationEmailPage,Ecommerce,Windows,Jsp,verification email sent page,x,x
+1461,VideoList,Online Video,Windows,Jsp,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+1462,YoutubeVideoPlay,Online Video,Windows,Jsp,youtube video player with video id ,videoId,x
+1463,AddBookUI,Library Management,Linux,Django,"add book ui using author name, book name and year",x,x
+1464,AddBookUI,Supply Chain,Linux,Django,"add book ui using author name, book name and year",x,x
+1465,AuthorAndGenre,Library Management,Linux,Django,author name dropdown and genre dropdown,x,x
+1466,AuthorAndGenre,Supply Chain,Linux,Django,author name dropdown and genre dropdown,x,x
+1467,BerthAvailabilty,Railway Booking,Linux,Django,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1468,BerthAvailabilty,Bus Booking,Linux,Django,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1469,BerthAvailabilty,Bus Booking,Linux,Django,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1470,BerthAvailabilty,Bus Booking,Linux,Django,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1471,BookAddedSuccessfullyDialog,Library Management,Linux,Django,book added sucessfully dialog,bookAddedSuccessful,x
+1472,BookAddedSuccessfullyDialog,Supply Chain,Linux,Django,book added sucessfully dialog,bookAddedSuccessful,x
+1473,BookingConfirmation,Hotel Booking,Linux,Django,confirmation page display,x,x
+1474,BookList,Library Management,Linux,Django,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1475,BookList,Supply Chain,Linux,Django,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1476,CalculateAgeScreen,Educational,Linux,Django,Calculate age using date picker and date of birth,loggedIn,age
+1477,CityNameDropdown,Hotel Booking,Linux,Django,city name dropdown,isLoggedIn,cityName:String
+1478,CityNameWithState,Hotel Booking,Linux,Django,city name dropdown with state,x,x
+1479,ClassTypeAndQuota,Railway Booking,Linux,Django,class type dropdown and quota type dropdown,x,x
+1480,ClassTypeAndQuota,Bus Booking,Linux,Django,class type dropdown and quota type dropdown,x,x
+1481,DateOfJourney,Bus Booking,Linux,Django,date of journey input,x,x
+1482,DateOfJourney,Railway Booking,Linux,Django,date of journey input,x,x
+1483,DisplayAgeOutput,Educational,Linux,Django,Display the age ,age,x
+1484,FlightBookingConfirmed,Flight Booking,Linux,Django,"Flight booking confirmed page with details like airline name , date of journey, from city , to city ",x,x
+1485,FlightClassType,Flight Booking,Linux,Django,select flight class type from dropdown,x,x
+1486,FlightDisplayUI,Flight Booking,Linux,Django,"display the searched list of flights and select a flight with details like airline code, airline name, departure, arrival , number of stops , duration and price",x,x
+1487,FromCityToCity,Bus Booking,Linux,Django,From city dropdown and to city dropdown select,x,x
+1488,FromCityToCity,Railway Booking,Linux,Django,From city dropdown and to city dropdown select,x,x
+1489,FromCityToCityDOJ,Flight Booking,Linux,Django,From city dropdown and to city dropdown and date of journey select,x,x
+1490,FromDateToDate,Hotel Booking,Linux,Django,from date and to date input,x,x
+1491,GetFlights,Flight Booking,Linux,Django,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+1492,GetTrains,Railway Booking,Linux,Django,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+1493,GSTCalculator,x,Linux,Django,gst calculate on amount or fare,amount,amount
+1494,HotelListUI,Hotel Booking,Linux,Django,list of hotels with hotel select from list,x,x
+1495,HotelRentCalculator,Hotel Booking,Linux,Django,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+1496,HotelSearch,Hotel Booking,Linux,Django,search for hotels using city and state name,x,x
+1497,LoginCaptchaScreen,x,Linux,Django,"Login using username, password and captcha",x,loggedIn
+1498,LoginCheck,x,Linux,Django,check username and password validity,"username,password",isLoggedIn
+1499,LoginErrorPage,x,Linux,Django,login failed error page,x,x
+1500,LoginScreen,x,Linux,Django,Login using username and password,x,loggedIn
+1501,LoginScreen1,x,Linux,Django,"login using username ,password and register option",x,"userRegistered,loggedIn"
+1502,Logout,x,Linux,Django,logout button,paymentStatus,loggedIn
+1503,NumberOfItems,Ecommerce,Linux,Django,number of items dropdown,selectedProduct,numberOfItems
+1504,PassengerDetails,Railway Booking,Linux,Django,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1505,PassengerDetails,Bus Booking,Linux,Django,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1506,PaymentFailed,x,Linux,Django,payment failed page for the given amount,x,x
+1507,PaymentPageUI,x,Linux,Django,"payment page with options like credit card, debit card and cash",x,x
+1508,PaymentPageUI1,x,Linux,Django,"payment page with options like credit card, debit card, netbanking, upi and cash",amount,paymentStatus
+1509,ProductCategory,Ecommerce,Linux,Django,product category dropdown,loggedIn,productCategorySelected
+1510,ProductFareCalculator,Ecommerce,Linux,Django,"product fare calculate using product price, number of items and discount percentage","amount,numberOfItems",amount
+1511,ProductList,Ecommerce,Linux,Django,display list of product search results with select a product,"loggedIn,productSeachedList","amount,selectedProduct"
+1512,ProfilePage,Ecommerce,Linux,Django,"profile page with details like name,username,email,address and phone number",x,x
+1513,Register,x,Linux,Django,"registration page with details like email , password and confirm password",x,userRegistered
+1514,Register1,x,Linux,Django,"registration page with details like name,email,username,password and confirm password",x,userRegistered
+1515,Register2,x,Linux,Django,"registration page with details like name, username,email,address,phone number,password and confirm password",x,x
+1516,RoomSelector,Hotel Booking,Linux,Django,room type and number of guests dropdown ,x,x
+1517,SearchBook,Library Management,Linux,Django,search box for entering book name,x,x
+1518,SearchProduct,Ecommerce,Linux,Django,searching products using product name and product category,"loggedIn,productSearchTerm,productCategorySelected",productSearchedList
+1519,SearchProductUI,Ecommerce,Linux,Django,search box for entering product name to search,loggedIn,productSearchTerm
+1520,ThankYouPage,Ecommerce,Linux,Django,thank you page for the username,x,x
+1521,TrainBookingConfirmed,Railway Booking,Linux,Django,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1522,TrainDisplayUI,Railway Booking,Linux,Django,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1523,BusBookingConfirmed,Bus Booking,Linux,Django,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1524,BusDisplayUI,Bus Booking,Linux,Django,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1525,VerificationEmailPage,Ecommerce,Linux,Django,verification email sent page,x,x
+1526,VideoList,Online Video,Linux,Django,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+1527,YoutubeVideoPlay,Online Video,Linux,Django,youtube video player with video id ,videoId,x
+1528,AddBookUI,Library Management,MacOS,Django,"add book ui using author name, book name and year",x,x
+1529,AddBookUI,Supply Chain,MacOS,Django,"add book ui using author name, book name and year",addBook,bookAddedSuccessful:Boolean
+1530,AuthorAndGenre,Library Management,MacOS,Django,author name dropdown and genre dropdown,x,x
+1531,AuthorAndGenre,Supply Chain,MacOS,Django,author name dropdown and genre dropdown,x,x
+1532,BerthAvailabilty,Railway Booking,MacOS,Django,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1533,BookAddedSuccessfullyDialog,Library Management,MacOS,Django,book added sucessfully dialog,bookAddedSuccessful,x
+1534,BookAddedSuccessfullyDialog,Supply Chain,MacOS,Django,book added sucessfully dialog,bookAddedSuccessful,x
+1535,BookingConfirmation,Hotel Booking,MacOS,Django,confirmation page display,x,x
+1536,BookList,Library Management,MacOS,Django,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1537,BookList,Supply Chain,MacOS,Django,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1538,CalculateAgeScreen,Educational,MacOS,Django,Calculate age using date picker and date of birth,loggedIn,age
+1539,CityNameDropdown,Hotel Booking,MacOS,Django,city name dropdown,isLoggedIn,cityName:String
+1540,CityNameWithState,Hotel Booking,MacOS,Django,city name dropdown with state,x,x
+1541,ClassTypeAndQuota,Railway Booking,MacOS,Django,class type dropdown and quota type dropdown,x,x
+1542,ClassTypeAndQuota,Bus Booking,MacOS,Django,class type dropdown and quota type dropdown,x,x
+1543,DateOfJourney,Bus Booking,MacOS,Django,date of journey input,x,x
+1544,DateOfJourney,Railway Booking,MacOS,Django,date of journey input,x,x
+1545,DisplayAgeOutput,Educational,MacOS,Django,Display the age ,age,x
+1546,FlightBookingConfirmed,Flight Booking,MacOS,Django,"Flight booking confirmed page with details like airline name , date of journey, from city , to city ",x,x
+1547,FlightClassType,Flight Booking,MacOS,Django,select flight class type from dropdown,x,x
+1548,FlightDisplayUI,Flight Booking,MacOS,Django,"display the searched list of flights and select a flight with details like airline code, airline name, departure, arrival , number of stops , duration and price",x,x
+1549,FromCityToCity,Bus Booking,MacOS,Django,From city dropdown and to city dropdown select,x,x
+1550,FromCityToCity,Railway Booking,MacOS,Django,From city dropdown and to city dropdown select,x,x
+1551,FromCityToCityDOJ,Flight Booking,MacOS,Django,From city dropdown and to city dropdown and date of journey select,x,x
+1552,FromDateToDate,Hotel Booking,MacOS,Django,from date and to date input,x,x
+1553,GetFlights,Flight Booking,MacOS,Django,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+1554,GetTrains,Railway Booking,MacOS,Django,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+1555,GSTCalculator,x,MacOS,Django,gst calculate on amount or fare,amount,amount
+1556,HotelListUI,Hotel Booking,MacOS,Django,list of hotels with hotel select from list,x,x
+1557,HotelRentCalculator,Hotel Booking,MacOS,Django,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+1558,HotelSearch,Hotel Booking,MacOS,Django,search for hotels using city and state name,x,x
+1559,LoginCaptchaScreen,x,MacOS,Django,"Login using username, password and captcha",x,loggedIn
+1560,LoginCheck,x,MacOS,Django,check username and password validity,"username,password",isLoggedIn
+1561,LoginErrorPage,x,MacOS,Django,login failed error page,x,x
+1562,LoginScreen,x,MacOS,Django,Login using username and password,x,loggedIn
+1563,LoginScreen1,x,MacOS,Django,"login using username ,password and register option",x,"userRegistered,loggedIn"
+1564,Logout,x,MacOS,Django,logout button,paymentStatus,loggedIn
+1565,NumberOfItems,Ecommerce,MacOS,Django,number of items dropdown,selectedProduct,numberOfItems
+1566,PassengerDetails,Railway Booking,MacOS,Django,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1567,PassengerDetails,Bus Booking,MacOS,Django,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1568,PaymentFailed,x,MacOS,Django,payment failed page for the given amount,x,x
+1569,PaymentPageUI,x,MacOS,Django,"payment page with options like credit card, debit card and cash",x,x
+1570,PaymentPageUI1,x,MacOS,Django,"payment page with options like credit card, debit card, netbanking, upi and cash",amount,paymentStatus
+1571,ProductCategory,Ecommerce,MacOS,Django,product category dropdown,loggedIn,productCategorySelected
+1572,ProductFareCalculator,Ecommerce,MacOS,Django,"product fare calculate using product price, number of items and discount percentage","amount,numberOfItems",amount
+1573,ProductList,Ecommerce,MacOS,Django,display list of product search results with select a product,"loggedIn,productSeachedList","amount,selectedProduct"
+1574,ProfilePage,Ecommerce,MacOS,Django,"profile page with details like name,username,email,address and phone number",x,x
+1575,Register,x,MacOS,Django,"registration page with details like email , password and confirm password",x,userRegistered
+1576,Register1,x,MacOS,Django,"registration page with details like name,email,username,password and confirm password",x,userRegistered
+1577,Register2,x,MacOS,Django,"registration page with details like name, username,email,address,phone number,password and confirm password",x,x
+1578,RoomSelector,Hotel Booking,MacOS,Django,room type and number of guests dropdown ,x,x
+1579,SearchBook,Library Management,MacOS,Django,search box for entering book name,x,x
+1580,SearchProduct,Ecommerce,MacOS,Django,searching products using product name and product category,"loggedIn,productSearchTerm,productCategorySelected",productSearchedList
+1581,SearchProductUI,Ecommerce,MacOS,Django,search box for entering product name to search,loggedIn,productSearchTerm
+1582,ThankYouPage,Ecommerce,MacOS,Django,thank you page for the username,x,x
+1583,TrainBookingConfirmed,Railway Booking,MacOS,Django,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1584,TrainDisplayUI,Railway Booking,MacOS,Django,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1585,BusBookingConfirmed,Bus Booking,MacOS,Django,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1586,BusDisplayUI,Bus Booking,MacOS,Django,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1587,VerificationEmailPage,Ecommerce,MacOS,Django,verification email sent page,x,x
+1588,VideoList,Online Video,MacOS,Django,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+1589,YoutubeVideoPlay,Online Video,MacOS,Django,youtube video player with video id ,videoId,x
+1590,AddBookUI,Library Management,Windows,Django,"add book ui using author name, book name and year",x,x
+1591,AddBookUI,Supply Chain,Windows,Django,"add book ui using author name, book name and year",x,x
+1592,AuthorAndGenre,Library Management,Windows,Django,author name dropdown and genre dropdown,x,x
+1593,AuthorAndGenre,Supply Chain,Windows,Django,author name dropdown and genre dropdown,x,x
+1594,BerthAvailabilty,Railway Booking,Windows,Django,"check for available berths using the values like train number ,DOJ, from and to city",x,x
+1595,BookAddedSuccessfullyDialog,Library Management,Windows,Django,book added sucessfully dialog,bookAddedSuccessful,x
+1596,BookAddedSuccessfullyDialog,Supply Chain,Windows,Django,book added sucessfully dialog,bookAddedSuccessful,x
+1597,BookingConfirmation,Hotel Booking,Windows,Django,confirmation page display,x,x
+1598,BookList,Library Management,Windows,Django,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1599,BookList,Supply Chain,Windows,Django,"list of books  search and display with book name, book price and author name","searchString,authorName,genre",bookRentCost:Double
+1600,CalculateAgeScreen,Educational,Windows,Django,Calculate age using date picker and date of birth,loggedIn,age
+1601,CityNameDropdown,Hotel Booking,Windows,Django,city name dropdown,isLoggedIn,cityName:String
+1602,CityNameWithState,Hotel Booking,Windows,Django,city name dropdown with state,x,x
+1603,ClassTypeAndQuota,Railway Booking,Windows,Django,class type dropdown and quota type dropdown,x,x
+1604,ClassTypeAndQuota,Bus Booking,Windows,Django,class type dropdown and quota type dropdown,x,x
+1605,DateOfJourney,Bus Booking,Windows,Django,date of journey input,x,x
+1606,DateOfJourney,Railway Booking,Windows,Django,date of journey input,x,x
+1607,DisplayAgeOutput,Educational,Windows,Django,Display the age ,age,x
+1608,FlightBookingConfirmed,Flight Booking,Windows,Django,"Flight booking confirmed page with details like airline name , date of journey, from city , to city ",x,x
+1609,FlightClassType,Flight Booking,Windows,Django,select flight class type from dropdown,x,x
+1610,FlightDisplayUI,Flight Booking,Windows,Django,"display the searched list of flights and select a flight with details like airline code, airline name, departure, arrival , number of stops , duration and price",x,x
+1611,FromCityToCity,Bus Booking,Windows,Django,From city dropdown and to city dropdown select,x,x
+1612,FromCityToCity,Railway Booking,Windows,Django,From city dropdown and to city dropdown select,x,x
+1613,FromCityToCityDOJ,Flight Booking,Windows,Django,From city dropdown and to city dropdown and date of journey select,x,x
+1614,FromDateToDate,Hotel Booking,Windows,Django,from date and to date input,x,x
+1615,GetFlights,Flight Booking,Windows,Django,"get flights button to search for flights using from city name , to city name and date of journey",x,x
+1616,GetTrains,Railway Booking,Windows,Django,"get train button to search for trains using from city name , to city name ,date of journey and class type",x,x
+1617,GSTCalculator,x,Windows,Django,gst calculate on amount or fare,amount,amount
+1618,HotelListUI,Hotel Booking,Windows,Django,list of hotels with hotel select from list,x,x
+1619,HotelRentCalculator,Hotel Booking,Windows,Django,"calculate rent of hotel room using number of days ,room type , number of guests and room rent per night",x,x
+1620,HotelSearch,Hotel Booking,Windows,Django,search hotels using city name,cityName,ids:String[]
+1621,LoginCaptchaScreen,x,Windows,Django,"Login using username, password and captcha",x,loggedIn
+1622,LoginCheck,x,Windows,Django,check username and password validity,"username,password",isLoggedIn
+1623,LoginErrorPage,x,Windows,Django,login failed error page,x,x
+1624,LoginScreen,x,Windows,Django,Login using username and password,x,loggedIn
+1625,LoginScreen1,x,Windows,Django,"login using username ,password and register option",x,"userRegistered,loggedIn"
+1626,Logout,x,Windows,Django,logout button,paymentStatus,loggedIn
+1627,NumberOfItems,Ecommerce,Windows,Django,number of items dropdown,selectedProduct,numberOfItems
+1628,PassengerDetails,Railway Booking,Windows,Django,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1629,PassengerDetails,Bus Booking,Windows,Django,"add details of passenger with input of name , age , gender  , phone number ",x,x
+1630,PaymentFailed,x,Windows,Django,payment failed page for the given amount,x,x
+1631,PaymentPageUI,x,Windows,Django,"payment page with options like credit card, debit card and cash",x,x
+1632,PaymentPageUI1,x,Windows,Django,"payment page with options like credit card, debit card, netbanking, upi and cash",amount,paymentStatus
+1633,ProductCategory,Ecommerce,Windows,Django,product category dropdown,loggedIn,productCategorySelected
+1634,ProductFareCalculator,Ecommerce,Windows,Django,"product fare calculate using product price, number of items and discount percentage","amount,numberOfItems",amount
+1635,ProductList,Ecommerce,Windows,Django,display list of product search results with select a product,"loggedIn,productSeachedList","amount,selectedProduct"
+1636,ProfilePage,Ecommerce,Windows,Django,"profile page with details like name,username,email,address and phone number",x,x
+1637,Register,x,Windows,Django,"registration page with details like email , password and confirm password",x,userRegistered
+1638,Register1,x,Windows,Django,"registration page with details like name,email,username,password and confirm password",x,userRegistered
+1639,Register2,x,Windows,Django,"registration page with details like name, username,email,address,phone number,password and confirm password",x,x
+1640,RoomSelector,Hotel Booking,Windows,Django,room type and number of guests dropdown ,x,x
+1641,SearchBook,Library Management,Windows,Django,search box for entering book name,x,x
+1642,SearchProduct,Ecommerce,Windows,Django,searching products using product name and product category,"loggedIn,productSearchTerm,productCategorySelected",productSearchedList
+1643,SearchProductUI,Ecommerce,Windows,Django,search box for entering product name to search,loggedIn,productSearchTerm
+1644,ThankYouPage,Ecommerce,Windows,Django,thank you page for the username,x,x
+1645,TrainBookingConfirmed,Railway Booking,Windows,Django,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1646,TrainDisplayUI,Railway Booking,Windows,Django,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1647,BusBookingConfirmed,Bus Booking,Windows,Django,"Train booking confirmed page with details like passenger name , date of journey, train name,travel duration and fare",x,x
+1648,BusDisplayUI,Bus Booking,Windows,Django,"display list of trains with details like train number, train name, duration and fare and select train ",x,x
+1649,VerificationEmailPage,Ecommerce,Windows,Django,verification email sent page,x,x
+1650,VideoList,Online Video,Windows,Django,"youtube video display with video title, views and channel name with watch button",loggedIn,videoId
+1651,YoutubeVideoPlay,Online Video,Windows,Django,youtube video player with video id ,videoId,x
